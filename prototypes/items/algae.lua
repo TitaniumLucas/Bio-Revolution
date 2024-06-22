@@ -9,18 +9,6 @@ local rawAlgae = {
 	icon_mipmaps = 1,
 }
 
-local handcraft_rawAlgae = {
-	type = "recipe",
-	name = "handcraft-rawAlgae",
-	category = "crafting",
-	enabled = true,
-	energy_required = 1,
-	ingredients = {},
-	result = "raw-algae",
-}
-
-data:extend({ rawAlgae, handcraft_rawAlgae })
-
 local cookedAlgae = {
 	type = "item",
 	name = "cooked-algae",
@@ -30,14 +18,4 @@ local cookedAlgae = {
 	icon_mipmaps = 1,
 }
 
-local cook_rawAlgae = {
-	type = "recipe",
-	name = "cook-rawAlgae",
-	category = "smelting",
-	enabled = true,
-	energy_required = 3,
-	ingredients = { { "raw-algae", 2 } },
-	result = "cooked-algae",
-}
-
-data:extend({ cookedAlgae, cook_rawAlgae })
+data:extend({ rawAlgae, cookedAlgae })
