@@ -1,6 +1,0 @@
-local CONSTANTS = {
-	ALGAE_STACK_SIZE = 200,
-	CROP_STACK_SIZE = 200,
-}
-
-return CONSTANTS
