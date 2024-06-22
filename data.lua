@@ -1,1 +1,5 @@
 require("prototypes.items.algae")
+require("prototypes.items.alcohol")
+require("prototypes.items.crops")
+require("prototypes.items.fermentation")
+require("prototypes.items.mash")
