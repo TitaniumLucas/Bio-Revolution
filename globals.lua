@@ -3,6 +3,7 @@ local globals = {
 	CONSTANTS = {
 		ALGAE_STACK_SIZE = 200,
 		CROP_STACK_SIZE = 200,
+		YEAST_STACK_SIZE = 200,
 	},
 
 	-- Filepath and size for the placeholder item icon
