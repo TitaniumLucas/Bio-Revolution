@@ -2,7 +2,7 @@ local globals = require("globals")
 
 local fermentationBase = {
 	type = "fluid",
-	name = "fermentation-base",
+	name = "br-fermentation-base",
 	default_temperature = 15,
 	base_color = { r = 0.541, g = 0.776, b = 0.384 },
 	flow_color = { r = 0.541, g = 0.776, b = 0.384 },
@@ -12,7 +12,7 @@ local fermentationBase = {
 
 local ethanol = {
 	type = "fluid",
-	name = "ethanol",
+	name = "br-ethanol",
 	default_temperature = 15,
 	base_color = { r = 0.909, g = 0.835, b = 0.541 },
 	flow_color = { r = 0.909, g = 0.835, b = 0.541 },

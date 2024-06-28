@@ -1,13 +1,13 @@
 local mashCorn = {
 	type = "recipe",
-	name = "mash-corn",
+	name = "br-mash-corn",
 	category = "crafting",
 	enabled = true,
 	energy_required = 3,
 	ingredients = {
-		{ "corn-crop", 10 },
+		{ "br-corn-crop", 10 },
 	},
-	result = "corn-mash",
+	result = "br-corn-mash",
 	result_count = 3,
 }
 
