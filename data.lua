@@ -13,3 +13,9 @@ require("prototypes.recipes.cooking")
 require("prototypes.recipes.forage")
 require("prototypes.recipes.mashing")
 require("prototypes.recipes.fermentation")
+
+-- Buildings
+require("prototypes.buildings.laboratory")
+
+-- Technology
+require("prototypes.technology.dummy-tech")
