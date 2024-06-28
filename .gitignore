@@ -43,4 +43,4 @@ luac.out
 .vscode/*
 
 # Art files
-graphics/*/*.kra
+graphics/**/*.kra
