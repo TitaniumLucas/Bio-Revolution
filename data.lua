@@ -1,3 +1,6 @@
+-- Groups
+require("prototypes.grouping")
+
 -- Items
 require("prototypes.items.algae")
 require("prototypes.items.alcohol")

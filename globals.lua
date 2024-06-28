@@ -6,6 +6,10 @@ local globals = {
 		YEAST_STACK_SIZE = 200,
 	},
 
+	-- Base item group and subgroup
+	PLACEHOLDER_ITEM_GROUP = "br-base-item-group",
+	PLACEHOLDER_ITEM_SUBGROUP = "br-base-item-subgroup",
+
 	-- Filepath and size for the placeholder item icon
 	PLACEHOLDER_ICON_ITEM_FILEPATH = "__bio-revolution__/graphics/icons/items/placeholder-icon.png",
 	PLACEHOLDER_ICON_ITEM_SIZE = 64,
