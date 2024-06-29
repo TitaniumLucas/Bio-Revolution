@@ -3,19 +3,19 @@ local globals = require("globals")
 local brainPlantItem = {
 	type = "item",
 	name = "br-brain-plant-lab",
-	stack_size = globals.CONSTANTS.BUILDING_STACK_SIZE,
-	icon = globals.PLACEHOLDER_ICON_ITEM_FILEPATH,
-	icon_size = globals.PLACEHOLDER_ICON_ITEM_SIZE,
 	place_result = "br-brain-plant-lab",
-	group = globals.PLACEHOLDER_ITEM_GROUP,
-	subgroup = globals.PLACEHOLDER_ITEM_SUBGROUP,
+	stack_size = globals.CONSTANTS.BUILDING_STACK_SIZE,
+	icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
+	icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+	group = globals.PLACEHOLDER.ITEM.GROUP,
+	subgroup = globals.PLACEHOLDER.ITEM.SUBGROUP,
 }
 
 local brainPlantLab = {
 	type = "lab",
 	name = "br-brain-plant-lab",
-	icon = globals.PLACEHOLDER_ICON_ITEM_FILEPATH,
-	icon_size = globals.PLACEHOLDER_ICON_ITEM_SIZE,
+	icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
+	icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
 	flags = { "placeable-player", "player-creation", "placeable-neutral" },
 	minable = { mining_time = 0.2, result = "br-brain-plant-lab" },
 	max_health = 150,

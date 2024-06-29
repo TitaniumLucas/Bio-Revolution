@@ -7,8 +7,8 @@ local rawAlgae = {
 	icon = "__bio-revolution__/graphics/icons/items/raw-algae.png",
 	icon_size = 256,
 	icon_mipmaps = 1,
-	group = globals.PLACEHOLDER_ITEM_GROUP,
-	subgroup = globals.PLACEHOLDER_ITEM_SUBGROUP,
+	group = globals.PLACEHOLDER.ITEM.GROUP,
+	subgroup = globals.PLACEHOLDER.ITEM.SUBGROUP,
 }
 
 local cookedAlgae = {
@@ -18,8 +18,8 @@ local cookedAlgae = {
 	icon = "__bio-revolution__/graphics/icons/items/cooked-algae.png",
 	icon_size = 256,
 	icon_mipmaps = 1,
-	group = globals.PLACEHOLDER_ITEM_GROUP,
-	subgroup = globals.PLACEHOLDER_ITEM_SUBGROUP,
+	group = globals.PLACEHOLDER.ITEM.GROUP,
+	subgroup = globals.PLACEHOLDER.ITEM.SUBGROUP,
 }
 
 data:extend({ rawAlgae, cookedAlgae })
