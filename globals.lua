@@ -3,6 +3,7 @@ local globals = {
 	CONSTANTS = {
 		ALGAE_STACK_SIZE = 200,
 		CROP_STACK_SIZE = 200,
+		SEED_STACK_SIZE = 200,
 		YEAST_STACK_SIZE = 200,
 		BUILDING_STACK_SIZE = 50,
 	},
@@ -22,12 +23,12 @@ local globals = {
 			ICON_FILEPATH = "__bio-revolution__/graphics/icons/technologies/placeholder-icon.png",
 			ICON_SIZE = 64,
 		},
-		ANIMATION = {
-			LAYERS = {
+		ANIMATIONLAYERS = {
+			layers = {
 				{
-					filename = "__bio-revolution__/graphics/entities/placeholder-text.png",
-					width = 256,
-					height = 256,
+					filename = "__bio-revolution__/graphics/entities/placeholder-text-lr.png",
+					width = 96,
+					height = 96,
 					frames = 1,
 				},
 			},

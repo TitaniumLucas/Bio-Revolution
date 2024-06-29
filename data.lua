@@ -1,21 +1,13 @@
--- Groups
-require("prototypes.grouping")
+local validfiles = {
+	"buildings",
+	"grouping",
+	"items",
+	"recipe-categories",
+	"recipes",
+	"technology",
+}
 
--- Items
-require("prototypes.items.algae")
-require("prototypes.items.alcohol")
-require("prototypes.items.crops")
-require("prototypes.items.yeast")
-require("prototypes.items.mash")
-
--- Recipes
-require("prototypes.recipes.cooking")
-require("prototypes.recipes.forage")
-require("prototypes.recipes.mashing")
-require("prototypes.recipes.fermentation")
-
--- Buildings
-require("prototypes.buildings.laboratory")
-
--- Technology
-require("prototypes.technology.dummy-tech")
+for i = 1, #validfiles do
+	local filename = "prototypes." .. validfiles[i]
+	require(filename)
+end
