@@ -1,6 +1,11 @@
 local cultivation = {
 	type = "recipe-category",
-	name = "cultivation",
+	name = "br-cultivation",
 }
 
-data:extend({ cultivation })
+local pressing = {
+	type = "recipe-category",
+	name = "br-pressing",
+}
+
+data:extend({ cultivation, pressing })

@@ -32,4 +32,26 @@ local cultivationItemSubGroup = {
 	order = "a",
 }
 
-data:extend({ baseItemGroup, baseItemSubGroup, cultivationItemGroup, cultivationItemSubGroup })
+local pressingItemGroup = {
+	type = "item-group",
+	name = "br-pressing-group",
+	order = "z",
+	icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
+	icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+}
+
+local pressingItemSubGroup = {
+	type = "item-subgroup",
+	name = "br-pressing-subgroup",
+	group = "br-pressing-group",
+	order = "a",
+}
+
+data:extend({
+	baseItemGroup,
+	baseItemSubGroup,
+	cultivationItemGroup,
+	cultivationItemSubGroup,
+	pressingItemGroup,
+	pressingItemSubGroup,
+})
