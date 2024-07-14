@@ -49,6 +49,16 @@ local brainPlantLab = {
 	},
 	researching_speed = 1,
 	inputs = { "automation-science-pack", "br-dummy-science-pack" },
+	autoplace = {
+		max_probability = 0.005,
+		peaks = {
+			{
+				influence = 0.005,
+				min_influence = 0,
+			},
+		},
+	},
+	map_color = { 1, 1, 1 },
 }
 
 data:extend({ brainPlantItem, brainPlantLab })
