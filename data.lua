@@ -31,8 +31,9 @@ utils.add_requirements("prototypes.items.", items)
 ---------------
 
 local buildings = {
+	"building-groups",
 	"farm",
-	"laboratory",
+	"natural-buildings",
 	"press",
 }
 

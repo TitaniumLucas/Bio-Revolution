@@ -3,7 +3,7 @@ data:extend({
 	{
 		type = "item-group",
 		name = "br-agriculture",
-		order = "z",
+		order = "a",
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
 	},
