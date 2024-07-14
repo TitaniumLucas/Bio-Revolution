@@ -1,5 +1,3 @@
-local globals = require("globals")
-
 local wildFarmItem = {
 	type = "item",
 	name = "br-wild-farm",

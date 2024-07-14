@@ -1,5 +1,3 @@
-local globals = require("globals")
-
 local basicPressItem = {
 	type = "item",
 	name = "br-basic-press",

@@ -1,5 +1,4 @@
 local resource_autoplace = require("resource-autoplace")
-local globals = require("globals")
 
 local basicMushroomControl = {
 	type = "autoplace-control",
@@ -32,15 +31,25 @@ local basicMushroom = {
 		starting_re_factor_multipler = 1,
 		regular_rq_factor_multiplier = 1.5,
 	}),
-	stage_counts = { 1 },
+	stage_counts = { 1000, 100 },
 	stages = {
 		sheet = {
-			filename = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-			size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-			frame_count = 1,
-			variation_count = 1,
+			filename = "__bio-revolution__/graphics/resources/basic-mushroom.png",
+			size = 128,
+			scale = 0.25,
+			frame_count = 8,
+			variation_count = 2,
+			hr_version = {
+				filename = "__bio-revolution__/graphics/resources/basic-mushroom.png",
+				size = 128,
+				scale = 0.25,
+				frame_count = 8,
+				variation_count = 2,
+				tint = { 0.6, 0.1, 0.1 },
+			},
 		},
 	},
+	map_color = { 0.3, 0.1, 0.1 },
 }
 
 data:extend({ basicMushroomControl, basicMushroom })

@@ -1,5 +1,3 @@
-local globals = require("globals")
-
 local dummyScience = {
 	type = "tool",
 	name = "br-dummy-science-pack",

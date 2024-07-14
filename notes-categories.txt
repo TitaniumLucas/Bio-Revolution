@@ -1,0 +1,9 @@
+Plants:
+Field and Fibre Crops (Grains, Cotton, Hemp, Flax, Sugarcane)
+Root and Tuber Crops (Carrots, Potatoes, Beets)
+Vegetable and Herb Crops (Lettuce, Peppers, Broccoli, Basil, Rosemary, Mint)
+Tree Crops (Apple, Palm, Orange, Mango, Oak, Walnut)
+Shrub and Bush Crops (Beans, Peas, Berries, Coffee)
+Vine Crops (Tomatoes, Grapes, Cucumbers)
+Aquatic and Wetland (Lotus, Rice, Kelp)
+Flower Crops (Roses, Sunflowers, Tulips)

@@ -1,5 +1,3 @@
-local globals = require("globals")
-
 local unprocessedVegetableOil = {
 	type = "fluid",
 	name = "br-unprocessed-vegetable-oil",

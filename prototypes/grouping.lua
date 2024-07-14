@@ -1,5 +1,3 @@
-local globals = require("globals")
-
 -- Item Groups
 
 local baseItemGroup = {

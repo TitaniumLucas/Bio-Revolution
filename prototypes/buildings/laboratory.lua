@@ -1,5 +1,3 @@
-local globals = require("globals")
-
 local brainPlantItem = {
 	type = "item",
 	name = "br-brain-plant-lab",

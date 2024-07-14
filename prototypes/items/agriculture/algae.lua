@@ -1,5 +1,3 @@
-local globals = require("globals")
-
 local rawAlgae = {
 	type = "item",
 	name = "br-raw-algae",

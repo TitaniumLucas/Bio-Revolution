@@ -1,5 +1,3 @@
-local globals = require("globals")
-
 local fermentationBase = {
 	type = "fluid",
 	name = "br-fermentation-base",

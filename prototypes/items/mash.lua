@@ -1,5 +1,3 @@
-local globals = require("globals")
-
 local cornMash = {
 	type = "item",
 	name = "br-corn-mash",

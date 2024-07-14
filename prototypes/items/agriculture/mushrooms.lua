@@ -1,5 +1,3 @@
-local globals = require("globals")
-
 local basicMushroom = {
 	type = "item",
 	name = "br-basic-mushroom",

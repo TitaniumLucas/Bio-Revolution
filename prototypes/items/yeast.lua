@@ -1,5 +1,3 @@
-local globals = require("globals")
-
 local yeast = {
 	type = "item",
 	name = "br-yeast",

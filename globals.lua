@@ -1,4 +1,4 @@
-local globals = {
+globals = {
 	-- Constant values that should be easy to modify across many entries
 	CONSTANTS = {
 		ALGAE_STACK_SIZE = 200,
@@ -15,6 +15,7 @@ local globals = {
 			SUBGROUP = "br-base-item-subgroup",
 			ICON_FILEPATH = "__bio-revolution__/graphics/icons/items/placeholder-icon.png",
 			ICON_SIZE = 64,
+			STACK_SIZE = 200,
 		},
 		FLUID = {
 			ICON_FILEPATH = "__bio-revolution__/graphics/icons/fluids/placeholder-icon.png",
@@ -39,5 +40,3 @@ local globals = {
 	PIXEL_PER_TILE_LOWRES = 32,
 	PIXEL_PER_TILE_HIGHES = 64,
 }
-
-return globals

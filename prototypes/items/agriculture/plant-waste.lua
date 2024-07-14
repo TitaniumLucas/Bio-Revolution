@@ -1,5 +1,3 @@
-local globals = require("globals")
-
 local plantMatter = {
 	type = "item",
 	name = "br-plant-matter",

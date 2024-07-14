@@ -1,5 +1,3 @@
-local globals = require("globals")
-
 local cultivateWildCorn = {
 	type = "recipe",
 	name = "br-cultivate-wild-corn",

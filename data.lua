@@ -1,18 +1,26 @@
 local utils = require("data-utils")
+require("globals")
 
 -----------
 -- Items --
 -----------
 
-local items = {
-	"alcohol",
+local agriculture = {
+	"agriculture-groups",
 	"algae",
 	"crops",
-	"mash",
 	"mushrooms",
-	"oil",
 	"plant-waste",
 	"seeds",
+	"trees",
+}
+
+utils.add_requirements("prototypes.items.agriculture.", agriculture)
+
+local items = {
+	"alcohol",
+	"mash",
+	"oil",
 	"yeast",
 }
 
@@ -43,7 +51,7 @@ local recipes = {
 	"pressing",
 }
 
-utils.add_requirements("prototypes.recipes.", recipes)
+-- utils.add_requirements("prototypes.recipes.", recipes)
 
 ----------------
 -- Technology --
