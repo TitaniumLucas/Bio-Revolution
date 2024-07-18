@@ -122,6 +122,7 @@ utils.add_requirements("prototypes.groups.", groups)
 ----------------------------
 
 local dummy = {
+	"dummy-buildings",
 	"dummy-groups",
 	"dummy-tech",
 }
