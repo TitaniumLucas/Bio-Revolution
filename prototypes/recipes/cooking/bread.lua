@@ -2,8 +2,8 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-cook-flat-bread",
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		icon = globals.MODNAME .. "/graphics/icons/items/baguette.png",
+		icon_size = 64,
 		category = "br-cooking",
 		subgroup = "br-cooking-baking",
 		energy_required = 1,

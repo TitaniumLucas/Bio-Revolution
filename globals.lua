@@ -1,4 +1,6 @@
 globals = {
+	MODNAME = "__bio-revolution__",
+
 	-- Constant values that should be easy to modify across many entries
 	CONSTANTS = {
 		ALGAE_STACK_SIZE = 200,

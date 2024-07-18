@@ -42,13 +42,13 @@ data:extend({
 		stage_counts = { 1000, 100 },
 		stages = {
 			sheet = {
-				filename = "__bio-revolution__/graphics/resources/basic-mushroom-cluster.png",
+				filename = globals.MODNAME .. "/graphics/resources/basic-mushroom-cluster.png",
 				size = 128,
 				scale = 0.25,
 				frame_count = 8,
 				variation_count = 2,
 				hr_version = {
-					filename = "__bio-revolution__/graphics/resources/basic-mushroom-cluster.png",
+					filename = globals.MODNAME .. "/graphics/resources/basic-mushroom-cluster.png",
 					size = 128,
 					scale = 0.25,
 					frame_count = 8,

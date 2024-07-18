@@ -2,8 +2,8 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-mill-flour-corn",
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		icon = globals.MODNAME .. "/graphics/icons/items/whole-grain-flour.png",
+		icon_size = 64,
 		category = "br-milling",
 		subgroup = "br-cooking-baking",
 		energy_required = 1,
@@ -18,8 +18,8 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-mill-flour-wheat",
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		icon = globals.MODNAME .. "/graphics/icons/items/whole-grain-flour.png",
+		icon_size = 64,
 		category = "br-milling",
 		subgroup = "br-cooking-baking",
 		energy_required = 1,

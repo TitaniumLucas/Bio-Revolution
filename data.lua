@@ -31,7 +31,7 @@ local crops = {
 utils.add_requirements("prototypes.items.crops.", crops)
 
 local cultivation = {
-	"plant-waste",
+	"plant-matter",
 	"planter-sticks",
 }
 

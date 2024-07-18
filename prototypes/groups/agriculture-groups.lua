@@ -63,4 +63,18 @@ data:extend({
 		group = "br-agriculture",
 		order = "h",
 	},
+	-- Waste
+	{
+		type = "item-subgroup",
+		name = "br-agriculture-waste",
+		group = "br-agriculture",
+		order = "z",
+	},
+	-- Tools
+	{
+		type = "item-subgroup",
+		name = "br-agriculture-tools",
+		group = "br-agriculture",
+		order = "y",
+	},
 })
