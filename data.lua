@@ -16,6 +16,13 @@ local agriculture = {
 
 utils.add_requirements("prototypes.items.agriculture.", agriculture)
 
+local cooking = {
+	"bread",
+	"flour",
+}
+
+utils.add_requirements("prototypes.items.cooking.", cooking)
+
 local science = {
 	"agriculture-packs",
 	"foraging-packs",
@@ -47,6 +54,18 @@ utils.add_requirements("prototypes.buildings.", buildings)
 -------------
 -- Recipes --
 -------------
+
+local cooking = {
+	"bread",
+}
+
+utils.add_requirements("prototypes.recipes.cooking.", cooking)
+
+local milling = {
+	"flour",
+}
+
+utils.add_requirements("prototypes.recipes.milling.", milling)
 
 local recipes = {
 	"cooking",
