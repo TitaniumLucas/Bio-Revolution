@@ -6,8 +6,7 @@ data:extend({
 		stack_size = globals.CONSTANTS.BUILDING_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-building",
-		subgroup = "br-building-agriculture",
+		subgroup = "br-science-buildings",
 	},
 	{
 		type = "lab",

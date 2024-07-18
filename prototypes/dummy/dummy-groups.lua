@@ -1,17 +1,15 @@
 data:extend({
-	-- Main building group
 	{
 		type = "item-group",
-		name = "br-building",
-		order = "b",
+		name = "br-base-item-group",
+		order = "z",
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
 	},
-	-- Agriculture
 	{
 		type = "item-subgroup",
-		name = "br-building-agriculture",
-		group = "br-building",
+		name = "br-base-item-subgroup",
+		group = "br-base-item-group",
 		order = "a",
 	},
 })

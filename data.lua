@@ -6,7 +6,6 @@ require("globals")
 -----------
 
 local agriculture = {
-	"agriculture-groups",
 	"algae",
 	"crops",
 	"mushrooms",
@@ -16,6 +15,13 @@ local agriculture = {
 }
 
 utils.add_requirements("prototypes.items.agriculture.", agriculture)
+
+local science = {
+	"agriculture-packs",
+	"foraging-packs",
+}
+
+utils.add_requirements("prototypes.items.science-packs.", science)
 
 local items = {
 	"alcohol",
@@ -31,7 +37,6 @@ utils.add_requirements("prototypes.items.", items)
 ---------------
 
 local buildings = {
-	"building-groups",
 	"farm",
 	"natural-buildings",
 	"press",
@@ -59,7 +64,8 @@ local recipes = {
 ----------------
 
 local technology = {
-	"dummy-tech",
+	"agriculture-tech",
+	"foraging-tech",
 }
 
 utils.add_requirements("prototypes.technology.", technology)
@@ -84,4 +90,21 @@ require("prototypes.recipe-categories")
 -- Groups and Subgroups --
 --------------------------
 
-require("prototypes.grouping")
+local groups = {
+	"agriculture-groups",
+	"cooking-groups",
+	"science-groups",
+}
+
+utils.add_requirements("prototypes.groups.", groups)
+
+----------------------------
+-- Dummy Placeholder & Tests
+----------------------------
+
+local dummy = {
+	"dummy-groups",
+	"dummy-tech",
+}
+
+utils.add_requirements("prototypes.dummy.", dummy)

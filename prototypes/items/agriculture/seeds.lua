@@ -6,7 +6,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-field_and_fibre",
 	},
 	{
@@ -15,7 +14,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-field_and_fibre",
 	},
 	{
@@ -24,7 +22,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-field_and_fibre",
 	},
 	{
@@ -33,7 +30,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-field_and_fibre",
 	},
 	{
@@ -42,7 +38,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-field_and_fibre",
 	},
 	{
@@ -51,7 +46,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-field_and_fibre",
 	},
 	{
@@ -60,7 +54,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-field_and_fibre",
 	},
 	{
@@ -69,7 +62,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-field_and_fibre",
 	},
 	{
@@ -78,7 +70,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-field_and_fibre",
 	},
 })
@@ -91,7 +82,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-root_and_tuber",
 	},
 	{
@@ -100,7 +90,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-root_and_tuber",
 	},
 	{
@@ -109,7 +98,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-root_and_tuber",
 	},
 	{
@@ -118,7 +106,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-root_and_tuber",
 	},
 })
@@ -131,7 +118,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-vegetable_and_herb",
 	},
 	{
@@ -140,7 +126,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-vegetable_and_herb",
 	},
 	{
@@ -149,7 +134,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-vegetable_and_herb",
 	},
 	{
@@ -158,7 +142,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-vegetable_and_herb",
 	},
 	{
@@ -167,7 +150,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-vegetable_and_herb",
 	},
 	{
@@ -176,7 +158,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-vegetable_and_herb",
 	},
 })
@@ -189,7 +170,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-tree",
 		order = "a",
 	},
@@ -199,7 +179,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-tree",
 		order = "a",
 	},
@@ -209,7 +188,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-tree",
 		order = "a",
 	},
@@ -219,7 +197,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-tree",
 		order = "a",
 	},
@@ -233,7 +210,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-shrub_and_bush",
 	},
 	{
@@ -242,7 +218,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-shrub_and_bush",
 	},
 })
@@ -255,7 +230,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-vine",
 	},
 	{
@@ -264,7 +238,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-vine",
 	},
 	{
@@ -273,7 +246,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-vine",
 	},
 })
@@ -286,7 +258,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-aquatic_and_wetland",
 	},
 })
@@ -299,7 +270,6 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		group = "br-agriculture",
 		subgroup = "br-agriculture-flower",
 	},
 })
