@@ -5,17 +5,11 @@ require("globals")
 -- Items --
 -----------
 
-local agriculture = {
+local algae = {
 	"algae",
-	"crops",
-	"mushrooms",
-	"plant-waste",
-	"seeds",
-	"trees",
-	"peat",
 }
 
-utils.add_requirements("prototypes.items.agriculture.", agriculture)
+utils.add_requirements("prototypes.items.algae.", algae)
 
 local cooking = {
 	"bread",
@@ -24,6 +18,37 @@ local cooking = {
 
 utils.add_requirements("prototypes.items.cooking.", cooking)
 
+local crops = {
+	"aquatic-and-wetland",
+	"field-and-fibre",
+	"flower",
+	"root-and-tuber",
+	"shrub-and-bush",
+	"vegetable-and-herb",
+	"vine",
+}
+
+utils.add_requirements("prototypes.items.crops.", crops)
+
+local cultivation = {
+	"plant-waste",
+	"planter-sticks",
+}
+
+utils.add_requirements("prototypes.items.cultivation.", cultivation)
+
+local fermentation = {
+	"alcohol",
+}
+
+utils.add_requirements("prototypes.items.fermentation.", fermentation)
+
+local fungi = {
+	"yeast",
+}
+
+utils.add_requirements("prototypes.items.fungi.", fungi)
+
 local science = {
 	"agriculture-packs",
 	"foraging-packs",
@@ -31,11 +56,16 @@ local science = {
 
 utils.add_requirements("prototypes.items.science-packs.", science)
 
+local trees = {
+	"fruit-trees",
+	"wood-trees",
+}
+
+utils.add_requirements("prototypes.items.trees.", trees)
+
 local items = {
-	"alcohol",
 	"mash",
 	"oil",
-	"yeast",
 }
 
 utils.add_requirements("prototypes.items.", items)
@@ -68,14 +98,14 @@ local milling = {
 
 utils.add_requirements("prototypes.recipes.milling.", milling)
 
-local recipes = {
-	"cooking",
-	"cultivation",
-	"fermentation",
-	"forage",
-	"mashing",
-	"pressing",
-}
+-- local recipes = {
+-- 	"cooking",
+-- 	"cultivation",
+-- 	"fermentation",
+-- 	"forage",
+-- 	"mashing",
+-- 	"pressing",
+-- }
 
 -- utils.add_requirements("prototypes.recipes.", recipes)
 
@@ -95,7 +125,7 @@ utils.add_requirements("prototypes.technology.", technology)
 ---------------
 
 local resources = {
-	"mushrooms",
+	"basic-mushroom-cluster",
 	"peat",
 }
 

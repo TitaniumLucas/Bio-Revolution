@@ -1,4 +1,3 @@
--- Tree Crops
 data:extend({
 	{
 		type = "item",

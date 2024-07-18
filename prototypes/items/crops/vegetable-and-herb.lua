@@ -1,0 +1,103 @@
+-- Crops
+data:extend({
+	{
+		type = "item",
+		name = "br-lettuce-crop",
+		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
+		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		subgroup = "br-agriculture-vegetable_and_herb",
+	},
+	{
+		type = "item",
+		name = "br-peppers-crop",
+		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
+		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		subgroup = "br-agriculture-vegetable_and_herb",
+	},
+	{
+		type = "item",
+		name = "br-brocolli-crop",
+		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
+		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		subgroup = "br-agriculture-vegetable_and_herb",
+	},
+	{
+		type = "item",
+		name = "br-basil-crop",
+		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
+		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		subgroup = "br-agriculture-vegetable_and_herb",
+	},
+	{
+		type = "item",
+		name = "br-rosemary-crop",
+		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
+		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		subgroup = "br-agriculture-vegetable_and_herb",
+	},
+	{
+		type = "item",
+		name = "br-mint-crop",
+		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
+		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		subgroup = "br-agriculture-vegetable_and_herb",
+	},
+})
+
+-- Wild Seeds
+data:extend({
+	{
+		type = "item",
+		name = "br-lettuce-wild_seed",
+		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
+		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		subgroup = "br-agriculture-vegetable_and_herb",
+	},
+	{
+		type = "item",
+		name = "br-peppers-wild_seed",
+		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
+		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		subgroup = "br-agriculture-vegetable_and_herb",
+	},
+	{
+		type = "item",
+		name = "br-brocolli-wild_seed",
+		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
+		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		subgroup = "br-agriculture-vegetable_and_herb",
+	},
+	{
+		type = "item",
+		name = "br-basil-wild_seed",
+		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
+		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		subgroup = "br-agriculture-vegetable_and_herb",
+	},
+	{
+		type = "item",
+		name = "br-rosemary-wild_seed",
+		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
+		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		subgroup = "br-agriculture-vegetable_and_herb",
+	},
+	{
+		type = "item",
+		name = "br-mint-wild_seed",
+		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
+		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		subgroup = "br-agriculture-vegetable_and_herb",
+	},
+})
