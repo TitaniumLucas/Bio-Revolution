@@ -12,6 +12,7 @@ local agriculture = {
 	"plant-waste",
 	"seeds",
 	"trees",
+	"peat",
 }
 
 utils.add_requirements("prototypes.items.agriculture.", agriculture)
@@ -95,6 +96,7 @@ utils.add_requirements("prototypes.technology.", technology)
 
 local resources = {
 	"mushrooms",
+	"peat",
 }
 
 utils.add_requirements("prototypes.resources.", resources)
