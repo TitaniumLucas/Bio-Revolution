@@ -14,7 +14,7 @@ data:extend({
 data:extend({
 	{
 		type = "item",
-		name = "br-sunflower-wild_seed",
+		name = "br-sunflower-wild-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,

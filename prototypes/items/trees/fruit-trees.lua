@@ -42,7 +42,7 @@ data:extend({
 data:extend({
 	{
 		type = "item",
-		name = "br-apple-wild_seed",
+		name = "br-apple-wild-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -51,7 +51,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-orange-wild_seed",
+		name = "br-orange-wild-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -60,7 +60,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-mango-wild_seed",
+		name = "br-mango-wild-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -69,7 +69,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-walnut-wild_seed",
+		name = "br-walnut-wild-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,

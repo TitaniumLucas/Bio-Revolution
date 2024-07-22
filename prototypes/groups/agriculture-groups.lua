@@ -10,21 +10,21 @@ data:extend({
 	-- Field and Fibre
 	{
 		type = "item-subgroup",
-		name = "br-agriculture-field_and_fibre",
+		name = "br-agriculture-field-and-fibre",
 		group = "br-agriculture",
 		order = "a",
 	},
 	-- Root and Tuber
 	{
 		type = "item-subgroup",
-		name = "br-agriculture-root_and_tuber",
+		name = "br-agriculture-root-and-tuber",
 		group = "br-agriculture",
 		order = "b",
 	},
 	-- Vegetable and Herb
 	{
 		type = "item-subgroup",
-		name = "br-agriculture-vegetable_and_herb",
+		name = "br-agriculture-vegetable-and-herb",
 		group = "br-agriculture",
 		order = "c",
 	},
@@ -38,7 +38,7 @@ data:extend({
 	-- Shrub and Bush
 	{
 		type = "item-subgroup",
-		name = "br-agriculture-shrub_and_bush",
+		name = "br-agriculture-shrub-and-bush",
 		group = "br-agriculture",
 		order = "e",
 	},
@@ -52,7 +52,7 @@ data:extend({
 	-- Aquatic and Wetland
 	{
 		type = "item-subgroup",
-		name = "br-agriculture-aquatic_and_wetland",
+		name = "br-agriculture-aquatic-and-wetland",
 		group = "br-agriculture",
 		order = "g",
 	},

@@ -6,7 +6,7 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		subgroup = "br-agriculture-root_and_tuber",
+		subgroup = "br-agriculture-root-and-tuber",
 	},
 	{
 		type = "item",
@@ -14,7 +14,7 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		subgroup = "br-agriculture-root_and_tuber",
+		subgroup = "br-agriculture-root-and-tuber",
 	},
 	{
 		type = "item",
@@ -22,7 +22,7 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		subgroup = "br-agriculture-root_and_tuber",
+		subgroup = "br-agriculture-root-and-tuber",
 	},
 	{
 		type = "item",
@@ -30,7 +30,7 @@ data:extend({
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		subgroup = "br-agriculture-root_and_tuber",
+		subgroup = "br-agriculture-root-and-tuber",
 	},
 })
 
@@ -38,34 +38,34 @@ data:extend({
 data:extend({
 	{
 		type = "item",
-		name = "br-potato-wild_seed",
+		name = "br-potato-wild-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		subgroup = "br-agriculture-root_and_tuber",
+		subgroup = "br-agriculture-root-and-tuber",
 	},
 	{
 		type = "item",
-		name = "br-ginger-wild_seed",
+		name = "br-ginger-wild-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		subgroup = "br-agriculture-root_and_tuber",
+		subgroup = "br-agriculture-root-and-tuber",
 	},
 	{
 		type = "item",
-		name = "br-carrot-wild_seed",
+		name = "br-carrot-wild-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		subgroup = "br-agriculture-root_and_tuber",
+		subgroup = "br-agriculture-root-and-tuber",
 	},
 	{
 		type = "item",
-		name = "br-beet-wild_seed",
+		name = "br-beet-wild-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
-		subgroup = "br-agriculture-root_and_tuber",
+		subgroup = "br-agriculture-root-and-tuber",
 	},
 })
