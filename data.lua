@@ -18,6 +18,12 @@ local cooking = {
 
 utils.add_requirements("prototypes.items.cooking.", cooking)
 
+local creatures = {
+	"spiderids",
+}
+
+utils.add_requirements("prototypes.items.creatures.", creatures)
+
 local crops = {
 	"aquatic-and-wetland",
 	"field-and-fibre",
@@ -75,9 +81,9 @@ utils.add_requirements("prototypes.items.", items)
 ---------------
 
 local buildings = {
-	"farm",
+	--	"farm",
 	"natural-buildings",
-	"press",
+	--	"press",
 }
 
 utils.add_requirements("prototypes.buildings.", buildings)
@@ -150,6 +156,7 @@ require("prototypes.recipe-categories")
 local groups = {
 	"agriculture-groups",
 	"cooking-groups",
+	"creature-groups",
 	"science-groups",
 }
 
