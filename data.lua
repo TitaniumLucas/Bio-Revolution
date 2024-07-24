@@ -55,6 +55,13 @@ local fungi = {
 
 utils.add_requirements("prototypes.items.fungi.", fungi)
 
+local resources = {
+	"basic-mushroom-cluster",
+	"peat",
+}
+
+utils.add_requirements("prototypes.items.resources.", resources)
+
 local science = {
 	"agriculture-packs",
 	"foraging-packs",

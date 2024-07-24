@@ -1,7 +1,7 @@
 data:extend({
 	{
 		type = "recipe",
-		name = "br-wild-cultivation-corn",
+		name = "br-simple-cultivation-corn",
 		icon = globals.MODNAME .. "/graphics/icons/items/corn-crop.png",
 		icon_size = 64,
 		category = "br-simple-cultivation",
@@ -17,7 +17,7 @@ data:extend({
 	},
 	{
 		type = "recipe",
-		name = "br-wild-cultivation-wheat",
+		name = "br-simple-cultivation-wheat",
 		icon = globals.MODNAME .. "/graphics/icons/items/wheat-crop.png",
 		icon_size = 64,
 		category = "br-simple-cultivation",
