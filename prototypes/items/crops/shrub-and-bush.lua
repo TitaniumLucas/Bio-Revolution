@@ -22,7 +22,7 @@ data:extend({
 data:extend({
 	{
 		type = "item",
-		name = "br-bean-wild-seed",
+		name = "br-bean-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -30,7 +30,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-pea-wild-seed",
+		name = "br-pea-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,

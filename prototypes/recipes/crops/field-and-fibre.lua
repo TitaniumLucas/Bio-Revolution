@@ -8,7 +8,7 @@ data:extend({
 		subgroup = "br-agriculture-field-and-fibre",
 		energy_required = 1,
 		ingredients = {
-			{ type = "item", name = "br-corn-wild-seed", amount = 1 },
+			{ type = "item", name = "br-corn-seed", amount = 1 },
 		},
 		results = {
 			{ type = "item", name = "br-corn-crop", amount = 1 },
@@ -24,7 +24,7 @@ data:extend({
 		subgroup = "br-agriculture-field-and-fibre",
 		energy_required = 1,
 		ingredients = {
-			{ type = "item", name = "br-wheat-wild-seed", amount = 1 },
+			{ type = "item", name = "br-wheat-seed", amount = 1 },
 		},
 		results = {
 			{ type = "item", name = "br-wheat-crop", amount = 1 },

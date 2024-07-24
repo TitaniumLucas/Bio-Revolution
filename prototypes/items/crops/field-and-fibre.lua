@@ -78,7 +78,7 @@ data:extend({
 data:extend({
 	{
 		type = "item",
-		name = "br-corn-wild-seed",
+		name = "br-corn-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.MODNAME .. "/graphics/icons/items/corn-seed.png",
 		icon_size = 64,
@@ -86,7 +86,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-wheat-wild-seed",
+		name = "br-wheat-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.MODNAME .. "/graphics/icons/items/wheat-seed.png",
 		icon_size = 64,
@@ -94,7 +94,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-barley-wild-seed",
+		name = "br-barley-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -102,7 +102,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-rye-wild-seed",
+		name = "br-rye-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -110,7 +110,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-cotton-wild-seed",
+		name = "br-cotton-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -118,7 +118,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-hemp-wild-seed",
+		name = "br-hemp-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -126,7 +126,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-flax-wild-seed",
+		name = "br-flax-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -134,7 +134,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-sugarcane-wild-seed",
+		name = "br-sugarcane-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -142,7 +142,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-rapeseed-wild-seed",
+		name = "br-rapeseed-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,

@@ -30,7 +30,7 @@ data:extend({
 data:extend({
 	{
 		type = "item",
-		name = "br-tomato-wild-seed",
+		name = "br-tomato-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -38,7 +38,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-grape-wild-seed",
+		name = "br-grape-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -46,7 +46,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-cucumber-wild-seed",
+		name = "br-cucumber-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,

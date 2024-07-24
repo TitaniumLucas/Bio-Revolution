@@ -54,7 +54,7 @@ data:extend({
 data:extend({
 	{
 		type = "item",
-		name = "br-lettuce-wild-seed",
+		name = "br-lettuce-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -62,7 +62,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-peppers-wild-seed",
+		name = "br-peppers-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -70,7 +70,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-brocolli-wild-seed",
+		name = "br-brocolli-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -78,7 +78,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-basil-wild-seed",
+		name = "br-basil-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -86,7 +86,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-rosemary-wild-seed",
+		name = "br-rosemary-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -94,7 +94,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-mint-wild-seed",
+		name = "br-mint-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,

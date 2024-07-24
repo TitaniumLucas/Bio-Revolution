@@ -38,7 +38,7 @@ data:extend({
 data:extend({
 	{
 		type = "item",
-		name = "br-potato-wild-seed",
+		name = "br-potato-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -46,7 +46,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-ginger-wild-seed",
+		name = "br-ginger-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -54,7 +54,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-carrot-wild-seed",
+		name = "br-carrot-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -62,7 +62,7 @@ data:extend({
 	},
 	{
 		type = "item",
-		name = "br-beet-wild-seed",
+		name = "br-beet-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
 		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
