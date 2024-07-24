@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-wild-cultivation-corn",
-		icon = globals.MODNAME .. "/graphics/icons/items/corn.png",
+		icon = globals.MODNAME .. "/graphics/icons/items/corn-crop.png",
 		icon_size = 64,
 		category = "br-simple-cultivation",
 		subgroup = "br-agriculture-field-and-fibre",
@@ -18,7 +18,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-wild-cultivation-wheat",
-		icon = globals.MODNAME .. "/graphics/icons/items/wheat.png",
+		icon = globals.MODNAME .. "/graphics/icons/items/wheat-crop.png",
 		icon_size = 64,
 		category = "br-simple-cultivation",
 		subgroup = "br-agriculture-field-and-fibre",
