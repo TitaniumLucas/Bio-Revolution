@@ -92,6 +92,12 @@ local cooking = {
 
 utils.add_requirements("prototypes.recipes.cooking.", cooking)
 
+local crops = {
+	"field-and-fibre",
+}
+
+utils.add_requirements("prototypes.recipes.crops.", crops)
+
 local milling = {
 	"flour",
 }

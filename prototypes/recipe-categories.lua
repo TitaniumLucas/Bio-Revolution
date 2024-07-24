@@ -1,8 +1,8 @@
 data:extend({
-	-- Cultivation
+	-- Simple Cultivation
 	{
 		type = "recipe-category",
-		name = "br-cultivation",
+		name = "br-simple-cultivation",
 	},
 	-- Pressing
 	{
