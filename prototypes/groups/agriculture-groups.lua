@@ -3,9 +3,9 @@ data:extend({
 	{
 		type = "item-group",
 		name = "br-agriculture",
-		order = "a",
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		order = "br-[agriculture]",
+		icon = globals.MODNAME .. "/graphics/icons/groups/agriculture.png",
+		icon_size = 64,
 	},
 	-- Field and Fibre
 	{

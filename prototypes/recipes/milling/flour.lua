@@ -14,6 +14,7 @@ data:extend({
 		results = {
 			{ type = "item", name = "br-flour", amount = 1 },
 		},
+		main_product = "",
 	},
 	{
 		type = "recipe",
@@ -30,5 +31,6 @@ data:extend({
 		results = {
 			{ type = "item", name = "br-flour", amount = 1 },
 		},
+		main_product = "",
 	},
 })

@@ -2,9 +2,9 @@ data:extend({
 	{
 		type = "item-group",
 		name = "br-cooking",
-		order = "a",
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		order = "br-[cooking]",
+		icon = globals.MODNAME .. "/graphics/icons/groups/cooking.png",
+		icon_size = 64,
 	},
 	{
 		type = "item-subgroup",

@@ -14,6 +14,7 @@ data:extend({
 			{ type = "item", name = "br-corn-crop", amount = 1 },
 			{ type = "item", name = "br-plant-matter", amount = 1 },
 		},
+		main_product = "",
 	},
 	{
 		type = "recipe",
@@ -30,5 +31,6 @@ data:extend({
 			{ type = "item", name = "br-wheat-crop", amount = 1 },
 			{ type = "item", name = "br-plant-matter", amount = 1 },
 		},
+		main_product = "",
 	},
 })

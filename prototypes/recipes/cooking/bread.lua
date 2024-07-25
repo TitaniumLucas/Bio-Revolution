@@ -1,7 +1,7 @@
 data:extend({
 	{
 		type = "recipe",
-		name = "br-cook-flat-bread",
+		name = "br-cook-flatbread",
 		icon = globals.MODNAME .. "/graphics/icons/items/baguette.png",
 		icon_size = 64,
 		category = "br-cooking",
@@ -12,7 +12,8 @@ data:extend({
 			{ type = "item", name = "br-flour", amount = 1 },
 		},
 		results = {
-			{ type = "item", name = "br-flat-bread", amount = 1 },
+			{ type = "item", name = "br-flatbread", amount = 1 },
 		},
+		main_product = "",
 	},
 })

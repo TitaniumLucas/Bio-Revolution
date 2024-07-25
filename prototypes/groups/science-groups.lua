@@ -3,9 +3,9 @@ data:extend({
 	{
 		type = "item-group",
 		name = "br-science",
-		order = "a",
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		order = "br-[science]",
+		icon = globals.MODNAME .. "/graphics/icons/groups/science.png",
+		icon_size = 64,
 	},
 	-- Foraging Packs
 	{

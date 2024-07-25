@@ -19,4 +19,9 @@ data:extend({
 		type = "recipe-category",
 		name = "br-cooking",
 	},
+	-- Science
+	{
+		type = "recipe-category",
+		name = "br-science",
+	},
 })

@@ -1,7 +1,7 @@
 data:extend({
 	{
 		type = "item",
-		name = "br-flat-bread",
+		name = "br-flatbread",
 		stack_size = globals.PLACEHOLDER.ITEM.STACK_SIZE,
 		icon = globals.MODNAME .. "/graphics/icons/items/baguette.png",
 		icon_size = 64,

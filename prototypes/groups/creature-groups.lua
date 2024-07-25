@@ -2,9 +2,9 @@ data:extend({
 	{
 		type = "item-group",
 		name = "br-creatures",
-		order = "i",
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		order = "br-[creatures]",
+		icon = globals.MODNAME .. "/graphics/icons/groups/creatures.png",
+		icon_size = 64,
 	},
 	{
 		type = "item-subgroup",

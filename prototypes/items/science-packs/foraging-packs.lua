@@ -3,8 +3,13 @@ data:extend({
 		type = "item",
 		name = "br-foraging-pack-1",
 		stack_size = 200,
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		icons = {
+			{
+				icon = globals.MODNAME .. "/graphics/icons/items/base-science-pack.png",
+				icon_size = 64,
+				tint = { 20 / 255, 180 / 255, 20 / 255 },
+			},
+		},
 		subgroup = "br-science-foraging",
 	},
 })
