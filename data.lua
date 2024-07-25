@@ -10,6 +10,12 @@ local algae = {
 }
 utils.add_requirements("prototypes.items.algae.", algae)
 
+local buildings = {
+	"farms",
+	"natural-buildings",
+}
+utils.add_requirements("prototypes.items.buildings.", buildings)
+
 local cooking = {
 	"bread",
 	"flour",
@@ -82,7 +88,7 @@ utils.add_requirements("prototypes.items.", items)
 ---------------
 
 local buildings = {
-	--	"farm",
+	"farms",
 	"natural-buildings",
 	--	"press",
 }
@@ -96,6 +102,11 @@ local cooking = {
 	"bread",
 }
 utils.add_requirements("prototypes.recipes.cooking.", cooking)
+
+local crafting = {
+	"fabrics",
+}
+utils.add_requirements("prototypes.recipes.crafting.", crafting)
 
 local crops = {
 	"field-and-fibre",

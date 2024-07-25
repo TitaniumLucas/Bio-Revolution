@@ -77,4 +77,11 @@ data:extend({
 		group = "br-agriculture",
 		order = "y",
 	},
+	-- Buildings
+	{
+		type = "item-subgroup",
+		name = "br-agriculture-buildings",
+		group = "br-agriculture",
+		order = "x",
+	},
 })

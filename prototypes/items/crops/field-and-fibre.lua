@@ -36,8 +36,8 @@ data:extend({
 		type = "item",
 		name = "br-cotton-crop",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		icon = globals.MODNAME .. "/graphics/icons/items/cotton-crop.png",
+		icon_size = 64,
 		subgroup = "br-agriculture-field-and-fibre",
 	},
 	{
@@ -52,8 +52,8 @@ data:extend({
 		type = "item",
 		name = "br-flax-crop",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		icon = globals.MODNAME .. "/graphics/icons/items/flax-crop.png",
+		icon_size = 64,
 		subgroup = "br-agriculture-field-and-fibre",
 	},
 	{
@@ -112,8 +112,8 @@ data:extend({
 		type = "item",
 		name = "br-cotton-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		icon = globals.MODNAME .. "/graphics/icons/items/cotton-seed.png",
+		icon_size = 64,
 		subgroup = "br-agriculture-field-and-fibre",
 	},
 	{
@@ -128,8 +128,8 @@ data:extend({
 		type = "item",
 		name = "br-flax-seed",
 		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		icon = globals.MODNAME .. "/graphics/icons/items/flax-seed.png",
+		icon_size = 64,
 		subgroup = "br-agriculture-field-and-fibre",
 	},
 	{
