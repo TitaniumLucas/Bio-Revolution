@@ -150,10 +150,21 @@ utils.add_requirements("prototypes.technology.", technology)
 ---------------
 
 local resources = {
+	"autoplace-control",
 	"basic-mushroom-cluster",
 	"peat",
 }
 utils.add_requirements("prototypes.resources.", resources)
+
+--------------
+-- Wildlife --
+--------------
+
+local wildlife = {
+	"autoplace-control",
+	"seed-bushes",
+}
+utils.add_requirements("prototypes.wildlife.", wildlife)
 
 -----------------------
 -- Recipe Categories --

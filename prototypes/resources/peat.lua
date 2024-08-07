@@ -2,13 +2,6 @@ local resource_autoplace = require("resource-autoplace")
 
 data:extend({
 	{
-		type = "autoplace-control",
-		name = "br-peat",
-		category = "resource",
-		can_be_disabled = true,
-		richness = "true",
-	},
-	{
 		type = "resource",
 		name = "br-peat",
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,

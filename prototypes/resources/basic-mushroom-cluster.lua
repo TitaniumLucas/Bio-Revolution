@@ -2,13 +2,6 @@ local resource_autoplace = require("resource-autoplace")
 
 data:extend({
 	{
-		type = "autoplace-control",
-		name = "br-basic-mushroom-cluster",
-		category = "resource",
-		can_be_disabled = true,
-		richness = true,
-	},
-	{
 		type = "resource",
 		name = "br-basic-mushroom-cluster",
 		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
