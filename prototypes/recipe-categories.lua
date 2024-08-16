@@ -28,4 +28,8 @@ data:extend({
 		type = "recipe-category",
 		name = "br-woodworking",
 	},
+	{
+		type = "recipe-category",
+		name = "br-basic-building",
+	},
 })

@@ -99,6 +99,11 @@ utils.add_requirements("prototypes.buildings.", buildings)
 -- Recipes --
 -------------
 
+local building = {
+	"farm",
+}
+utils.add_requirements("prototypes.recipes.building.", building)
+
 local cooking = {
 	"bread",
 }
