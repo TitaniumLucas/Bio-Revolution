@@ -56,6 +56,7 @@ utils.add_requirements("prototypes.items.fungi.", fungi)
 
 local intermediates = {
 	"fabrics",
+	"planks",
 }
 utils.add_requirements("prototypes.items.intermediates.", intermediates)
 
@@ -123,6 +124,11 @@ local science = {
 	"foraging-packs",
 }
 utils.add_requirements("prototypes.recipes.science-packs.", science)
+
+local woodworking = {
+	"plank-cutting",
+}
+utils.add_requirements("prototypes.recipes.woodworking.", woodworking)
 
 -- local recipes = {
 -- 	"cooking",

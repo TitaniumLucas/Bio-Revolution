@@ -12,4 +12,10 @@ data:extend({
 		group = "br-intermediates",
 		order = "f",
 	},
+	{
+		type = "item-subgroup",
+		name = "br-intermediates-planks",
+		group = "br-intermediates",
+		order = "w",
+	},
 })

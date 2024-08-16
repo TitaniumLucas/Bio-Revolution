@@ -1,13 +1,13 @@
 utils = {}
 
 function utils.add_requirements(path, filenames)
-	for _, filename in ipairs(filenames) do
+	for _, filename in pairs(filenames) do
 		require(path .. filename)
 	end
 end
 
 function utils.hide_recipes(recipes)
-	for _, recipe in ipairs(recipes) do
+	for _, recipe in pairs(recipes) do
 		utils.hide_recipe(recipe)
 	end
 end
@@ -28,7 +28,7 @@ function utils.hide_recipe(recipe)
 end
 
 function utils.hide_techs(techs)
-	for _, tech in ipairs(techs) do
+	for _, tech in pairs(techs) do
 		utils.hide_tech(tech)
 	end
 end
@@ -40,7 +40,7 @@ function utils.hide_tech(tech)
 end
 
 function utils.remove_items(items)
-	for _, item in ipairs(items) do
+	for _, item in pairs(items) do
 		utils.remove_item(item)
 	end
 end
@@ -52,7 +52,7 @@ function utils.remove_item(item)
 end
 
 function utils.remove_fluids(fluids)
-	for _, fluid in ipairs(fluids) do
+	for _, fluid in pairs(fluids) do
 		utils.remove_fluid(fluid)
 	end
 end

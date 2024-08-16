@@ -24,4 +24,8 @@ data:extend({
 		type = "recipe-category",
 		name = "br-science",
 	},
+	{
+		type = "recipe-category",
+		name = "br-woodworking",
+	},
 })

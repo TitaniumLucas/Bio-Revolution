@@ -33,7 +33,7 @@ end)
 script.on_event(defines.events.on_entity_died, function(event)
 	local entity = event.entity
 	if entity and entity.valid and entity.name == "variable-speed-assembler" then
-		for i, assembler in ipairs(variable_speed_assemblers) do
+		for i, assembler in pairs(variable_speed_assemblers) do
 			if assembler == entity then
 				table.remove(variable_speed_assemblers, i)
 				break
@@ -44,7 +44,7 @@ script.on_event(defines.events.on_entity_died, function(event)
 			position = entity.position,
 			radius = 0.5,
 		})
-		for _, beacon in ipairs(beacons) do
+		for _, beacon in pairs(beacons) do
 			beacon.destroy()
 		end
 	end
