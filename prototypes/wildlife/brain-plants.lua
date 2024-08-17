@@ -2,8 +2,8 @@ data:extend({
 	{
 		type = "lab",
 		name = "br-brain-plant-lab",
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		icon = globals.MODNAME .. "/graphics/icons/buildings/brain-plant.png",
+		icon_size = 64,
 		flags = { "placeable-player", "player-creation", "placeable-neutral" },
 		minable = { mining_time = 0.2, result = "br-brain-plant-lab" },
 		max_health = 150,
@@ -38,7 +38,7 @@ data:extend({
 			type = "void",
 		},
 		researching_speed = 1,
-		inputs = { "automation-science-pack", "br-dummy-science-pack" },
+		inputs = { "br-foraging-pack-1", "br-agriculture-pack-1" },
 		autoplace = {
 			max_probability = 0.005,
 			peaks = {

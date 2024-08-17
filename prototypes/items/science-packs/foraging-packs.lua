@@ -2,6 +2,7 @@ data:extend({
 	{
 		type = "item",
 		name = "br-foraging-pack-1",
+		localised_name = { "item-name.br-science-pack-numbered", { "bio-rev.br-forage-science" }, 1 },
 		stack_size = 200,
 		icons = {
 			{

@@ -2,6 +2,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-simple-cultivation-corn",
+		localised_name = { "recipe-name.br-simple-cultivation", { "item-name.br-corn-crop" } },
 		icon = globals.MODNAME .. "/graphics/icons/items/corn-crop.png",
 		icon_size = 64,
 		category = "br-simple-cultivation",
@@ -19,6 +20,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-simple-cultivation-wheat",
+		localised_name = { "recipe-name.br-simple-cultivation", { "item-name.br-wheat-crop" } },
 		icon = globals.MODNAME .. "/graphics/icons/items/wheat-crop.png",
 		icon_size = 64,
 		category = "br-simple-cultivation",
@@ -36,6 +38,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-simple-cultivation-cotton",
+		localised_name = { "recipe-name.br-simple-cultivation", { "item-name.br-cotton-crop" } },
 		icon = globals.MODNAME .. "/graphics/icons/items/cotton-crop.png",
 		icon_size = 64,
 		category = "br-simple-cultivation",
@@ -53,6 +56,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-simple-cultivation-flax",
+		localised_name = { "recipe-name.br-simple-cultivation", { "item-name.br-flax-crop" } },
 		icon = globals.MODNAME .. "/graphics/icons/items/flax-crop.png",
 		icon_size = 64,
 		category = "br-simple-cultivation",

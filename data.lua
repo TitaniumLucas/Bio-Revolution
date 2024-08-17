@@ -7,7 +7,6 @@ require("globals")
 
 local buildings = {
 	"farms",
-	"natural-buildings",
 	--	"press",
 }
 utils.add_requirements("prototypes.buildings.", buildings)
@@ -36,7 +35,7 @@ utils.add_requirements("prototypes.groups.", groups)
 
 local buildings = {
 	"farms",
-	"natural-buildings",
+	"brain-plants",
 }
 utils.add_requirements("prototypes.items.buildings.", buildings)
 
@@ -133,6 +132,7 @@ utils.add_requirements("prototypes.recipes.cooking.", cooking)
 
 local crafting = {
 	"fabrics",
+	"plant-fibre",
 }
 utils.add_requirements("prototypes.recipes.crafting.", crafting)
 
@@ -195,6 +195,7 @@ utils.add_requirements("prototypes.resources.", resources)
 
 local wildlife = {
 	"autoplace-control",
+	"brain-plants",
 	"seed-bushes",
 }
 utils.add_requirements("prototypes.wildlife.", wildlife)

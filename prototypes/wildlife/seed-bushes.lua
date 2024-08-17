@@ -15,6 +15,7 @@ data:extend({
 		minable = {
 			mining_time = 1,
 			results = {
+				{ type = "item", name = "br-plant-matter", amount_min = 1, amount_max = 3 },
 				{ type = "item", name = "br-corn-seed", probability = 0.5, amount = 1 },
 				{ type = "item", name = "br-wheat-seed", probability = 0.5, amount = 1 },
 				{ type = "item", name = "br-flax-seed", probability = 0.5, amount = 1 },
