@@ -1,14 +1,38 @@
 local utils = require("data-utils")
 require("globals")
 
+---------------
+-- Buildings --
+---------------
+
+local buildings = {
+	"farms",
+	"natural-buildings",
+	--	"press",
+}
+utils.add_requirements("prototypes.buildings.", buildings)
+
+--------------------------
+-- Groups and Subgroups --
+--------------------------
+
+local groups = {
+	"agriculture-groups",
+	"cooking-groups",
+	"creature-groups",
+	"intermediate-groups",
+	"science-groups",
+}
+utils.add_requirements("prototypes.groups.", groups)
+
 -----------
 -- Items --
 -----------
 
-local algae = {
-	"algae",
-}
-utils.add_requirements("prototypes.items.algae.", algae)
+-- local algae = {
+-- 	"algae",
+-- }
+-- utils.add_requirements("prototypes.items.algae.", algae)
 
 local buildings = {
 	"farms",
@@ -22,19 +46,19 @@ local cooking = {
 }
 utils.add_requirements("prototypes.items.cooking.", cooking)
 
-local creatures = {
-	"spiderids",
-}
-utils.add_requirements("prototypes.items.creatures.", creatures)
+-- local creatures = {
+-- 	"spiderids",
+-- }
+-- utils.add_requirements("prototypes.items.creatures.", creatures)
 
 local crops = {
-	"aquatic-and-wetland",
+	-- "aquatic-and-wetland",
 	"field-and-fibre",
-	"flower",
-	"root-and-tuber",
-	"shrub-and-bush",
-	"vegetable-and-herb",
-	"vine",
+	-- "flower",
+	-- "root-and-tuber",
+	-- "shrub-and-bush",
+	-- "vegetable-and-herb",
+	-- "vine",
 }
 utils.add_requirements("prototypes.items.crops.", crops)
 
@@ -44,15 +68,16 @@ local cultivation = {
 }
 utils.add_requirements("prototypes.items.cultivation.", cultivation)
 
-local fermentation = {
-	"alcohol",
-}
-utils.add_requirements("prototypes.items.fermentation.", fermentation)
+-- local fermentation = {
+-- 	"alcohol",
+-- }
+-- utils.add_requirements("prototypes.items.fermentation.", fermentation)
 
-local fungi = {
-	"yeast",
-}
-utils.add_requirements("prototypes.items.fungi.", fungi)
+-- local fungi = {
+-- 	"yeast",
+--  "basic-mushroom-cluster",
+-- }
+-- utils.add_requirements("prototypes.items.fungi.", fungi)
 
 local intermediates = {
 	"fabrics",
@@ -60,40 +85,37 @@ local intermediates = {
 }
 utils.add_requirements("prototypes.items.intermediates.", intermediates)
 
-local resources = {
-	"basic-mushroom-cluster",
-	"peat",
-}
-utils.add_requirements("prototypes.items.resources.", resources)
-
 local science = {
 	"agriculture-packs",
 	"foraging-packs",
 }
 utils.add_requirements("prototypes.items.science-packs.", science)
 
-local trees = {
-	"fruit-trees",
-	"wood-trees",
+local soils = {
+	"peat",
 }
-utils.add_requirements("prototypes.items.trees.", trees)
+utils.add_requirements("prototypes.items.soils.", soils)
 
-local items = {
-	"mash",
-	"oil",
+-- local trees = {
+-- 	"fruit-trees",
+-- 	"wood-trees",
+-- }
+-- utils.add_requirements("prototypes.items.trees.", trees)
+
+-- local items = {
+-- 	"mash",
+-- 	"oil",
+-- }
+-- utils.add_requirements("prototypes.items.", items)
+
+-------------------------
+--- Recipe Categories ---
+-------------------------
+
+local categories = {
+	"recipe-categories",
 }
-utils.add_requirements("prototypes.items.", items)
-
----------------
--- Buildings --
----------------
-
-local buildings = {
-	"farms",
-	"natural-buildings",
-	--	"press",
-}
-utils.add_requirements("prototypes.buildings.", buildings)
+utils.add_requirements("prototypes.recipe-categories.", categories)
 
 -------------
 -- Recipes --
@@ -146,26 +168,26 @@ utils.add_requirements("prototypes.recipes.woodworking.", woodworking)
 
 -- utils.add_requirements("prototypes.recipes.", recipes)
 
-----------------
--- Technology --
-----------------
-
-local technology = {
-	"agriculture-tech",
-	"foraging-tech",
-}
-utils.add_requirements("prototypes.technology.", technology)
-
 ---------------
 -- Resources --
 ---------------
 
 local resources = {
 	"autoplace-control",
-	"basic-mushroom-cluster",
+	-- "basic-mushroom-cluster",
 	"peat",
 }
 utils.add_requirements("prototypes.resources.", resources)
+
+----------------
+-- Technology --
+----------------
+
+-- local technology = {
+-- 	"agriculture-tech",
+-- 	"foraging-tech",
+-- }
+-- utils.add_requirements("prototypes.technology.", technology)
 
 --------------
 -- Wildlife --
@@ -176,25 +198,6 @@ local wildlife = {
 	"seed-bushes",
 }
 utils.add_requirements("prototypes.wildlife.", wildlife)
-
------------------------
--- Recipe Categories --
------------------------
-
-require("prototypes.recipe-categories")
-
---------------------------
--- Groups and Subgroups --
---------------------------
-
-local groups = {
-	"agriculture-groups",
-	"cooking-groups",
-	"creature-groups",
-	"intermediate-groups",
-	"science-groups",
-}
-utils.add_requirements("prototypes.groups.", groups)
 
 ----------------------------
 -- Dummy Placeholder & Tests
