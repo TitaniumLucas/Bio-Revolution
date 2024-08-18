@@ -183,11 +183,11 @@ utils.add_requirements("prototypes.resources.", resources)
 -- Technology --
 ----------------
 
--- local technology = {
--- 	"agriculture-tech",
--- 	"foraging-tech",
--- }
--- utils.add_requirements("prototypes.technology.", technology)
+local technology = {
+	-- "agriculture-tech",
+	"foraging-tech",
+}
+utils.add_requirements("prototypes.technology.", technology)
 
 --------------
 -- Wildlife --

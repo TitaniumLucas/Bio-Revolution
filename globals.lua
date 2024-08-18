@@ -27,7 +27,7 @@ globals = {
 			ICON_SIZE = 64,
 		},
 		TECH = {
-			ICON_FILEPATH = "__bio-revolution__/graphics/icons/technologies/placeholder-icon.png",
+			ICON_FILEPATH = "__bio-revolution__/graphics/icons/technology/placeholder-icon.png",
 			ICON_SIZE = 64,
 		},
 		ANIMATIONLAYERS = {
