@@ -10,6 +10,7 @@ data:extend({
 				tint = { 180 / 255, 155 / 255, 20 / 255 },
 			},
 		},
+		enabled = false,
 		category = "crafting",
 		subgroup = "br-science-agriculture",
 		energy_required = 1,

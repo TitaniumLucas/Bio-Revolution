@@ -2,8 +2,10 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-make-fabric-cotton",
+		localised_name = { "recipe-name.br-make-fabric", { "item-name.br-cotton-crop" } },
 		icon = globals.MODNAME .. "/graphics/icons/items/fabric.png",
 		icon_size = 64,
+		enabled = false,
 		category = "crafting",
 		subgroup = "br-intermediates-fabrics",
 		energy_required = 1,
@@ -18,8 +20,10 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-make-fabric-flax",
+		localised_name = { "recipe-name.br-make-fabric", { "item-name.br-flax-crop" } },
 		icon = globals.MODNAME .. "/graphics/icons/items/fabric.png",
 		icon_size = 64,
+		enabled = false,
 		category = "crafting",
 		subgroup = "br-intermediates-fabrics",
 		energy_required = 1,

@@ -6,6 +6,7 @@ require("globals")
 ---------------
 
 local buildings = {
+	"cookers",
 	"farms",
 	--	"press",
 }
@@ -34,6 +35,7 @@ utils.add_requirements("prototypes.groups.", groups)
 -- utils.add_requirements("prototypes.items.algae.", algae)
 
 local buildings = {
+	"cookers",
 	"farms",
 	"brain-plants",
 }
@@ -121,6 +123,7 @@ utils.add_requirements("prototypes.recipe-categories.", categories)
 -------------
 
 local building = {
+	"cooker",
 	"farm",
 }
 utils.add_requirements("prototypes.recipes.building.", building)

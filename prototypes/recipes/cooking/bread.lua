@@ -7,7 +7,7 @@ data:extend({
 		category = "br-cooking",
 		subgroup = "br-cooking-baking",
 		energy_required = 1,
-		enabled = true,
+		enabled = false,
 		ingredients = {
 			{ type = "item", name = "br-flour", amount = 1 },
 		},
