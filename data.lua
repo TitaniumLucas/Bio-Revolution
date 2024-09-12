@@ -210,6 +210,9 @@ utils.add_requirements("prototypes.wildlife.", wildlife)
 local dummy = {
 	"dummy-buildings",
 	"dummy-groups",
-	"dummy-tech",
+	-- "dummy-tech",
 }
 utils.add_requirements("prototypes.dummy.", dummy)
+
+--- TESTS ---
+require("unfinished.tests.data-hidden-techs")
