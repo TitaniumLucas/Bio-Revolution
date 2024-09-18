@@ -32,4 +32,19 @@ data:extend({
 		type = "recipe-category",
 		name = "br-basic-building",
 	},
+	-- Tree Germination
+	{
+		type = "recipe-category",
+		name = "br-tree-germination",
+	},
+	-- Logging
+	{
+		type = "recipe-category",
+		name = "br-tree-logging",
+	},
+	-- Tapping
+	{
+		type = "recipe-category",
+		name = "br-tree-tapping",
+	},
 })

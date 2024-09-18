@@ -97,11 +97,18 @@ local soils = {
 }
 utils.add_requirements("prototypes.items.soils.", soils)
 
--- local trees = {
--- 	"fruit-trees",
--- 	"wood-trees",
--- }
--- utils.add_requirements("prototypes.items.trees.", trees)
+local tools = {
+	"tree-tap",
+}
+utils.add_requirements("prototypes.items.tools.", tools)
+
+local trees = {
+	"fruit-trees",
+	"lumber-trees",
+	"resin",
+	"wood",
+}
+utils.add_requirements("prototypes.items.trees.", trees)
 
 -- local items = {
 -- 	"mash",
@@ -154,6 +161,13 @@ local science = {
 	"foraging-packs",
 }
 utils.add_requirements("prototypes.recipes.science-packs.", science)
+
+local trees = {
+	"logging",
+	"tapping",
+	"tree-germination",
+}
+utils.add_requirements("prototypes.recipes.trees.", trees)
 
 local woodworking = {
 	"plank-cutting",

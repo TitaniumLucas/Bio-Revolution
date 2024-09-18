@@ -31,7 +31,7 @@ data:extend({
 	-- Tree
 	{
 		type = "item-subgroup",
-		name = "br-agriculture-tree",
+		name = "br-agriculture-trees",
 		group = "br-agriculture",
 		order = "d",
 	},
