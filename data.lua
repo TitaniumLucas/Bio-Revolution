@@ -22,6 +22,7 @@ local groups = {
 	"creature-groups",
 	"intermediate-groups",
 	"science-groups",
+	"soil-groups",
 }
 utils.add_requirements("prototypes.groups.", groups)
 
@@ -57,7 +58,7 @@ local crops = {
 	"field-and-fibre",
 	-- "flower",
 	-- "root-and-tuber",
-	-- "shrub-and-bush",
+	"shrub-and-bush",
 	-- "vegetable-and-herb",
 	-- "vine",
 }
@@ -93,6 +94,7 @@ local science = {
 utils.add_requirements("prototypes.items.science-packs.", science)
 
 local soils = {
+	"metallic-soils",
 	"peat",
 }
 utils.add_requirements("prototypes.items.soils.", soils)
@@ -148,6 +150,7 @@ utils.add_requirements("prototypes.recipes.crafting.", crafting)
 
 local crops = {
 	"field-and-fibre",
+	"shrub-and-bush",
 }
 utils.add_requirements("prototypes.recipes.crops.", crops)
 
@@ -192,6 +195,7 @@ utils.add_requirements("prototypes.recipes.woodworking.", woodworking)
 local resources = {
 	"autoplace-control",
 	-- "basic-mushroom-cluster",
+	"metallic-soils",
 	"peat",
 }
 utils.add_requirements("prototypes.resources.", resources)

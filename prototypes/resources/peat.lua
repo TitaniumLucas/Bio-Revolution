@@ -4,8 +4,8 @@ data:extend({
 	{
 		type = "resource",
 		name = "br-peat",
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		icon = globals.MODNAME .. "/graphics/icons/items/peat.png",
+		icon_size = 64,
 		flags = { "placeable-neutral" },
 		order = "a-b-z",
 		tree_removal_probability = 0.8,

@@ -1,0 +1,76 @@
+local resource_autoplace = require("resource-autoplace")
+
+data:extend({
+	{
+		type = "resource",
+		name = "br-ferric-soil",
+		icon = globals.MODNAME .. "/graphics/icons/items/ferric-soil.png",
+		icon_size = 64,
+		flags = { "placeable-neutral" },
+		order = "a-b-z",
+		tree_removal_probability = 0.8,
+		tree_removal_max_distance = 32 * 32,
+		minable = {
+			mining_time = 1,
+			result = "br-ferric-soil",
+		},
+		collision_box = { { -0.1, -0.1 }, { 0.1, 0.1 } },
+		selection_box = { { -0.5, -0.5 }, { 0.5, 0.5 } },
+		autoplace = resource_autoplace.resource_autoplace_settings({
+			name = "iron-ore",
+			patch_set_name = "br-ferric-soil",
+			order = "b",
+			has_starting_area_placement = true,
+			base_density = 8,
+			regular_rq_factor_multiplier = 1.10,
+			starting_rq_factor_multiplier = 1.5,
+		}),
+		stage_counts = { 2000, 500 },
+		stages = {
+			sheet = {
+				filename = globals.MODNAME .. "/graphics/resources/ferric-soil.png",
+				priority = "extra-high",
+				size = 64,
+				frame_count = 3,
+				variation_count = 2,
+			},
+		},
+		map_color = { 94 / 255, 75 / 255, 63 / 255 },
+	},
+	{
+		type = "resource",
+		name = "br-cupric-soil",
+		icon = globals.MODNAME .. "/graphics/icons/items/cupric-soil.png",
+		icon_size = 64,
+		flags = { "placeable-neutral" },
+		order = "a-b-z",
+		tree_removal_probability = 0.8,
+		tree_removal_max_distance = 32 * 32,
+		minable = {
+			mining_time = 1,
+			result = "br-cupric-soil",
+		},
+		collision_box = { { -0.1, -0.1 }, { 0.1, 0.1 } },
+		selection_box = { { -0.5, -0.5 }, { 0.5, 0.5 } },
+		autoplace = resource_autoplace.resource_autoplace_settings({
+			name = "copper-ore",
+			patch_set_name = "br-cupric-soil",
+			order = "b",
+			has_starting_area_placement = true,
+			base_density = 8,
+			regular_rq_factor_multiplier = 1.10,
+			starting_rq_factor_multiplier = 1.5,
+		}),
+		stage_counts = { 2000, 500 },
+		stages = {
+			sheet = {
+				filename = globals.MODNAME .. "/graphics/resources/cupric-soil.png",
+				priority = "extra-high",
+				size = 64,
+				frame_count = 3,
+				variation_count = 2,
+			},
+		},
+		map_color = { 120 / 255, 70 / 255, 25 / 255 },
+	},
+})
