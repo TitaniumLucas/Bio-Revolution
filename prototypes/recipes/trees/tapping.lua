@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-tap-pine-tree",
-		icon = globals.MODNAME .. "/graphics/icons/items/pine-resin.png",
+		icon = biorev.GRAPHICS .. "/icons/items/pine-resin.png",
 		icon_size = 64,
 		category = "br-tree-tapping",
 		subgroup = "br-agriculture-trees",

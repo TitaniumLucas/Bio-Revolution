@@ -4,7 +4,7 @@ data:extend({
 	{
 		type = "resource",
 		name = "br-peat",
-		icon = globals.MODNAME .. "/graphics/icons/items/peat.png",
+		icon = biorev.GRAPHICS .. "/icons/items/peat.png",
 		icon_size = 64,
 		flags = { "placeable-neutral" },
 		order = "a-b-z",

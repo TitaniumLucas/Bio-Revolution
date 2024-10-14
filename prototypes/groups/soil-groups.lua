@@ -3,7 +3,7 @@ data:extend({
 		type = "item-group",
 		name = "br-soils",
 		order = "br-[soil]",
-		icon = globals.MODNAME .. "/graphics/icons/groups/soils.png",
+		icon = biorev.GRAPHICS .. "/icons/groups/soils.png",
 		icon_size = 64,
 	},
 	{

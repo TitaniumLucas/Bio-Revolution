@@ -1,8 +1,8 @@
 data:extend({
 	type = "recipe",
 	name = "br-wild-cultivation-corn",
-	icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-	icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+	icon = biorev.PLACEHOLDER.ITEM.ICON_FILEPATH,
+	icon_size = biorev.PLACEHOLDER.ITEM.ICON_SIZE,
 	category = "br-cultivation",
 	enabled = false,
 	energy_required = 1,

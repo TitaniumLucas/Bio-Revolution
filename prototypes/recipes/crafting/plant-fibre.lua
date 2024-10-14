@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-make-plant-fibre",
-		icon = globals.MODNAME .. "/graphics/icons/items/plant-fibre.png",
+		icon = biorev.GRAPHICS .. "/icons/items/plant-fibre.png",
 		icon_size = 64,
 		category = "crafting",
 		subgroup = "br-agriculture-waste",

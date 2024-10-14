@@ -3,7 +3,7 @@ data:extend({
 		type = "item-group",
 		name = "br-intermediates",
 		order = "br-[intermediates]",
-		icon = globals.MODNAME .. "/graphics/icons/groups/intermediates.png",
+		icon = biorev.GRAPHICS .. "/icons/groups/intermediates.png",
 		icon_size = 64,
 	},
 	{

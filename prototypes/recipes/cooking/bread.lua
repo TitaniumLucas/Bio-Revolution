@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-cook-flatbread",
-		icon = globals.MODNAME .. "/graphics/icons/items/baguette.png",
+		icon = biorev.GRAPHICS .. "/icons/items/baguette.png",
 		icon_size = 64,
 		category = "br-cooking",
 		subgroup = "br-cooking-baking",

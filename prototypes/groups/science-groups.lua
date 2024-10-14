@@ -4,7 +4,7 @@ data:extend({
 		type = "item-group",
 		name = "br-science",
 		order = "br-[science]",
-		icon = globals.MODNAME .. "/graphics/icons/groups/science.png",
+		icon = biorev.GRAPHICS .. "/icons/groups/science.png",
 		icon_size = 64,
 	},
 	-- Foraging Packs

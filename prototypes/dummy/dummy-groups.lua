@@ -3,8 +3,8 @@ data:extend({
 		type = "item-group",
 		name = "br-base-item-group",
 		order = "z",
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		icon = biorev.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = biorev.PLACEHOLDER.ITEM.ICON_SIZE,
 	},
 	{
 		type = "item-subgroup",

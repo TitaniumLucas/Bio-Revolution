@@ -3,9 +3,9 @@ data:extend({
 	{
 		type = "item",
 		name = "br-sunflower-crop",
-		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		stack_size = biorev.STACKSIZE.CROP,
+		icon = biorev.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = biorev.PLACEHOLDER.ITEM.ICON_SIZE,
 		subgroup = "br-agriculture-flower",
 	},
 })
@@ -15,9 +15,9 @@ data:extend({
 	{
 		type = "item",
 		name = "br-sunflower-seed",
-		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		stack_size = biorev.STACKSIZE.CROP,
+		icon = biorev.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = biorev.PLACEHOLDER.ITEM.ICON_SIZE,
 		subgroup = "br-agriculture-flower",
 	},
 })

@@ -4,7 +4,7 @@ data:extend({
 		type = "item-group",
 		name = "br-agriculture",
 		order = "br-[agriculture]",
-		icon = globals.MODNAME .. "/graphics/icons/groups/agriculture.png",
+		icon = biorev.GRAPHICS .. "/icons/groups/agriculture.png",
 		icon_size = 64,
 	},
 	-- Field and Fibre

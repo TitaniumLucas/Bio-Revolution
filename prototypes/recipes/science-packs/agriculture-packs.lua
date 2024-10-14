@@ -5,7 +5,7 @@ data:extend({
 		localised_name = { "recipe-name.br-make-science-pack", { "bio-rev.br-agriculture-science" }, "1" },
 		icons = {
 			{
-				icon = globals.MODNAME .. "/graphics/icons/items/base-science-pack.png",
+				icon = biorev.GRAPHICS .. "/icons/items/base-science-pack.png",
 				icon_size = 64,
 				tint = { 180 / 255, 155 / 255, 20 / 255 },
 			},

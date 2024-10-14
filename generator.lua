@@ -3,19 +3,19 @@ local utils = require("data-utils")
 generator = {}
 
 function generator.make_item(item)
-	stack_size = item.stack_size or globals.PLACEHOLDER.ITEM.STACK_SIZE
+	stack_size = item.stack_size or biorev.PLACEHOLDER.ITEM.STACK_SIZE
 
 	if item.icon == nil or item.icon_size == nil then
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE
+		icon = biorev.PLACEHOLDER.ITEM.ICON_FILEPATH
+		icon_size = biorev.PLACEHOLDER.ITEM.ICON_SIZE
 	else
 		icon = item.icon
 		icon_size = item.icon_size
 	end
 
 	if item.group == nil or item.subgroup == nil then
-		group = globals.PLACEHOLDER.ITEM.GROUP
-		subgroup = globals.PLACEHOLDER.ITEM.SUBGROUP
+		group = biorev.PLACEHOLDER.ITEM.GROUP
+		subgroup = biorev.PLACEHOLDER.ITEM.SUBGROUP
 	else
 		group = item.group
 		subgroup = item.subgroup

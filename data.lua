@@ -1,5 +1,5 @@
 local utils = require("data-utils")
-require("globals")
+require("biorev-globals")
 
 ---------------
 -- Buildings --

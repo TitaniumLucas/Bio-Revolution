@@ -6,7 +6,7 @@ data:extend({
 	{
 		type = "simple-entity",
 		name = "br-seed-bush-01",
-		icon = globals.MODNAME .. "/graphics/entities/wildlife/seed-bush-01.png",
+		icon = biorev.GRAPHICS .. "/entities/wildlife/seed-bush-01.png",
 		icon_size = 64,
 		flags = { "placeable-neutral" },
 		max_health = 50,
@@ -25,12 +25,12 @@ data:extend({
 		render_layer = "object",
 		pictures = {
 			{
-				filename = globals.MODNAME .. "/graphics/entities/wildlife/seed-bush-01.png",
+				filename = biorev.GRAPHICS .. "/entities/wildlife/seed-bush-01.png",
 				width = 64,
 				height = 64,
 			},
 			{
-				filename = globals.MODNAME .. "/graphics/entities/wildlife/seed-bush-02.png",
+				filename = biorev.GRAPHICS .. "/entities/wildlife/seed-bush-02.png",
 				width = 64,
 				height = 64,
 			},

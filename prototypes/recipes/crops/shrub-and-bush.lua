@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-simple-cultivation-iron-berry",
-		icon = globals.MODNAME .. "/graphics/icons/items/iron-berry-crop.png",
+		icon = biorev.GRAPHICS .. "/icons/items/iron-berry-crop.png",
 		icon_size = 64,
 		category = "br-simple-cultivation",
 		subgroup = "br-agriculture-shrub-and-bush",
@@ -20,7 +20,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "br-simple-cultivation-copper-berry",
-		icon = globals.MODNAME .. "/graphics/icons/items/copper-berry-crop.png",
+		icon = biorev.GRAPHICS .. "/icons/items/copper-berry-crop.png",
 		icon_size = 64,
 		category = "br-simple-cultivation",
 		subgroup = "br-agriculture-shrub-and-bush",

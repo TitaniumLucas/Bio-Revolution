@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "assembling-machine",
 		name = "br-simple-farm",
-		icon = globals.MODNAME .. "/graphics/icons/buildings/simple-farm.png",
+		icon = biorev.GRAPHICS .. "/icons/buildings/simple-farm.png",
 		icon_size = 64,
 		flags = { "placeable-player", "player-creation", "placeable-neutral" },
 		minable = { mining_time = 1, result = "br-simple-farm" },
@@ -12,7 +12,7 @@ data:extend({
 		animation = {
 			layers = {
 				{
-					filename = globals.MODNAME .. "/graphics/entities/buildings/simple-farm.png",
+					filename = biorev.GRAPHICS .. "/entities/buildings/simple-farm.png",
 					size = 96,
 					frame_count = 1,
 				},

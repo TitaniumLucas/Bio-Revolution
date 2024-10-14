@@ -4,8 +4,8 @@ data:extend({
 	{
 		type = "resource",
 		name = "br-basic-mushroom-cluster",
-		icon = globals.PLACEHOLDER.ITEM.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.ITEM.ICON_SIZE,
+		icon = biorev.PLACEHOLDER.ITEM.ICON_FILEPATH,
+		icon_size = biorev.PLACEHOLDER.ITEM.ICON_SIZE,
 		flags = { "placeable-neutral" },
 		order = "a-b-z",
 		tree_removal_probability = 0.8,
@@ -27,13 +27,13 @@ data:extend({
 		stage_counts = { 1000, 100 },
 		stages = {
 			sheet = {
-				filename = globals.MODNAME .. "/graphics/resources/basic-mushroom-cluster.png",
+				filename = biorev.GRAPHICS .. "/resources/basic-mushroom-cluster.png",
 				size = 128,
 				scale = 0.25,
 				frame_count = 8,
 				variation_count = 2,
 				hr_version = {
-					filename = globals.MODNAME .. "/graphics/resources/basic-mushroom-cluster.png",
+					filename = biorev.GRAPHICS .. "/resources/basic-mushroom-cluster.png",
 					size = 128,
 					scale = 0.25,
 					frame_count = 8,

@@ -4,7 +4,7 @@ data:extend({
 	{
 		type = "resource",
 		name = "br-ferric-soil",
-		icon = globals.MODNAME .. "/graphics/icons/items/ferric-soil.png",
+		icon = biorev.GRAPHICS .. "/icons/items/ferric-soil.png",
 		icon_size = 64,
 		flags = { "placeable-neutral" },
 		order = "a-b-z",
@@ -28,7 +28,7 @@ data:extend({
 		stage_counts = { 2000, 500 },
 		stages = {
 			sheet = {
-				filename = globals.MODNAME .. "/graphics/resources/ferric-soil.png",
+				filename = biorev.GRAPHICS .. "/resources/ferric-soil.png",
 				priority = "extra-high",
 				size = 64,
 				frame_count = 3,
@@ -40,7 +40,7 @@ data:extend({
 	{
 		type = "resource",
 		name = "br-cupric-soil",
-		icon = globals.MODNAME .. "/graphics/icons/items/cupric-soil.png",
+		icon = biorev.GRAPHICS .. "/icons/items/cupric-soil.png",
 		icon_size = 64,
 		flags = { "placeable-neutral" },
 		order = "a-b-z",
@@ -64,7 +64,7 @@ data:extend({
 		stage_counts = { 2000, 500 },
 		stages = {
 			sheet = {
-				filename = globals.MODNAME .. "/graphics/resources/cupric-soil.png",
+				filename = biorev.GRAPHICS .. "/resources/cupric-soil.png",
 				priority = "extra-high",
 				size = 64,
 				frame_count = 3,

@@ -4,8 +4,8 @@ data:extend({
 	{
 		type = "fluid",
 		name = "test-fluid",
-		icon = globals.PLACEHOLDER.FLUID.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.FLUID.ICON_SIZE,
+		icon = biorev.PLACEHOLDER.FLUID.ICON_FILEPATH,
+		icon_size = biorev.PLACEHOLDER.FLUID.ICON_SIZE,
 		base_color = { 1, 1, 1 },
 		flow_color = { 1, 1, 1 },
 		default_temperature = 15,
@@ -20,8 +20,8 @@ data:extend({
 	{
 		type = "resource",
 		name = "test-fluid-well",
-		icon = globals.PLACEHOLDER.FLUID.ICON_FILEPATH,
-		icon_size = globals.PLACEHOLDER.FLUID.ICON_SIZE,
+		icon = biorev.PLACEHOLDER.FLUID.ICON_FILEPATH,
+		icon_size = biorev.PLACEHOLDER.FLUID.ICON_SIZE,
 		flags = { "placeable-neutral" },
 		category = "basic-fluid",
 		subgroup = "raw-resource",
@@ -57,7 +57,7 @@ data:extend({
 		stage_counts = { 0 },
 		stages = {
 			sheet = {
-				filename = globals.MODNAME .. "/graphics/resources/placeholder-fluidwell.png",
+				filename = biorev.GRAPHICS .. "/resources/placeholder-fluidwell.png",
 				size = 96,
 				frame_count = 1,
 				variation_count = 1,

@@ -11,7 +11,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "br-milling",
-		icon = globals.MODNAME .. "/graphics/icons/technology/milling.png",
+		icon = biorev.GRAPHICS .. "/icons/technology/milling.png",
 		icon_size = 64,
 		effects = {
 			{
@@ -35,7 +35,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "br-cooking",
-		icon = globals.MODNAME .. "/graphics/icons/technology/cooking.png",
+		icon = biorev.GRAPHICS .. "/icons/technology/cooking.png",
 		icon_size = 64,
 		effects = {
 			{
@@ -55,7 +55,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "br-baking",
-		icon = globals.MODNAME .. "/graphics/icons/technology/baking.png",
+		icon = biorev.GRAPHICS .. "/icons/technology/baking.png",
 		icon_size = 64,
 		effects = {
 			{
@@ -75,7 +75,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "br-basic-weaving",
-		icon = globals.MODNAME .. "/graphics/icons/technology/basic-weaving.png",
+		icon = biorev.GRAPHICS .. "/icons/technology/basic-weaving.png",
 		icon_size = 64,
 		effects = {
 			{
@@ -101,7 +101,7 @@ data:extend({
 		name = "br-agriculture-pack",
 		icons = {
 			{
-				icon = globals.MODNAME .. "/graphics/icons/items/base-science-pack.png",
+				icon = biorev.GRAPHICS .. "/icons/items/base-science-pack.png",
 				icon_size = 64,
 				tint = { 180 / 255, 155 / 255, 20 / 255 },
 			},

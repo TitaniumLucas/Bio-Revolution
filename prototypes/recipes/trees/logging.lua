@@ -4,11 +4,11 @@ data:extend({
 		name = "br-log-apple-tree",
 		icons = {
 			{
-				icon = globals.MODNAME .. "/graphics/icons/items/apple-tree.png",
+				icon = biorev.GRAPHICS .. "/icons/items/apple-tree.png",
 				icon_size = 64,
 			},
 			{
-				icon = globals.MODNAME .. "/graphics/icons/labels/saw-label.png",
+				icon = biorev.GRAPHICS .. "/icons/labels/saw-label.png",
 				icon_size = 64,
 			},
 		},
@@ -29,11 +29,11 @@ data:extend({
 		name = "br-log-orange-tree",
 		icons = {
 			{
-				icon = globals.MODNAME .. "/graphics/icons/items/orange-tree.png",
+				icon = biorev.GRAPHICS .. "/icons/items/orange-tree.png",
 				icon_size = 64,
 			},
 			{
-				icon = globals.MODNAME .. "/graphics/icons/labels/saw-label.png",
+				icon = biorev.GRAPHICS .. "/icons/labels/saw-label.png",
 				icon_size = 64,
 			},
 		},
@@ -54,11 +54,11 @@ data:extend({
 		name = "br-log-mango-tree",
 		icons = {
 			{
-				icon = globals.MODNAME .. "/graphics/icons/items/mango-tree.png",
+				icon = biorev.GRAPHICS .. "/icons/items/mango-tree.png",
 				icon_size = 64,
 			},
 			{
-				icon = globals.MODNAME .. "/graphics/icons/labels/saw-label.png",
+				icon = biorev.GRAPHICS .. "/icons/labels/saw-label.png",
 				icon_size = 64,
 			},
 		},
@@ -79,11 +79,11 @@ data:extend({
 		name = "br-log-walnut-tree",
 		icons = {
 			{
-				icon = globals.MODNAME .. "/graphics/icons/items/walnut-tree.png",
+				icon = biorev.GRAPHICS .. "/icons/items/walnut-tree.png",
 				icon_size = 64,
 			},
 			{
-				icon = globals.MODNAME .. "/graphics/icons/labels/saw-label.png",
+				icon = biorev.GRAPHICS .. "/icons/labels/saw-label.png",
 				icon_size = 64,
 			},
 		},
@@ -104,11 +104,11 @@ data:extend({
 		name = "br-log-oak-tree",
 		icons = {
 			{
-				icon = globals.MODNAME .. "/graphics/icons/items/oak-tree.png",
+				icon = biorev.GRAPHICS .. "/icons/items/oak-tree.png",
 				icon_size = 64,
 			},
 			{
-				icon = globals.MODNAME .. "/graphics/icons/labels/saw-label.png",
+				icon = biorev.GRAPHICS .. "/icons/labels/saw-label.png",
 				icon_size = 64,
 			},
 		},
@@ -128,11 +128,11 @@ data:extend({
 		name = "br-log-pine-tree",
 		icons = {
 			{
-				icon = globals.MODNAME .. "/graphics/icons/items/pine-tree.png",
+				icon = biorev.GRAPHICS .. "/icons/items/pine-tree.png",
 				icon_size = 64,
 			},
 			{
-				icon = globals.MODNAME .. "/graphics/icons/labels/saw-label.png",
+				icon = biorev.GRAPHICS .. "/icons/labels/saw-label.png",
 				icon_size = 64,
 			},
 		},
@@ -153,11 +153,11 @@ data:extend({
 		name = "br-log-mahogany-tree",
 		icons = {
 			{
-				icon = globals.MODNAME .. "/graphics/icons/items/mahogany-tree.png",
+				icon = biorev.GRAPHICS .. "/icons/items/mahogany-tree.png",
 				icon_size = 64,
 			},
 			{
-				icon = globals.MODNAME .. "/graphics/icons/labels/saw-label.png",
+				icon = biorev.GRAPHICS .. "/icons/labels/saw-label.png",
 				icon_size = 64,
 			},
 		},

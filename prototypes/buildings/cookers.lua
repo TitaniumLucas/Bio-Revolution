@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "assembling-machine",
 		name = "br-cooker",
-		icon = globals.MODNAME .. "/graphics/icons/buildings/cooker.png",
+		icon = biorev.GRAPHICS .. "/icons/buildings/cooker.png",
 		icon_size = 64,
 		flags = { "placeable-player", "player-creation", "placeable-neutral" },
 		minable = { mining_time = 1, result = "br-cooker" },
@@ -12,7 +12,7 @@ data:extend({
 		animation = {
 			layers = {
 				{
-					filename = globals.MODNAME .. "/graphics/entities/buildings/cooker.png",
+					filename = biorev.GRAPHICS .. "/entities/buildings/cooker.png",
 					width = 64,
 					height = 64,
 					frame_count = 1,
@@ -20,7 +20,7 @@ data:extend({
 			},
 		},
 		working_sound = {
-			sound = { filename = globals.MODNAME .. "/sound/basic-cooker.ogg", volume = 0.7 },
+			sound = { filename = biorev.MODNAME .. "/sound/basic-cooker.ogg", volume = 0.7 },
 			apparent_volume = 1,
 		},
 		crafting_categories = { "br-cooking" },

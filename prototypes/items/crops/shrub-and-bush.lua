@@ -2,22 +2,22 @@ data:extend({
 	{
 		type = "item",
 		name = "br-iron-berry-crop",
-		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
-		icon = globals.MODNAME .. "/graphics/icons/items/iron-berry-crop.png",
+		stack_size = biorev.STACKSIZE.CROP,
+		icon = biorev.GRAPHICS .. "/icons/items/iron-berry-crop.png",
 		icon_size = 64,
 		subgroup = "br-agriculture-shrub-and-bush",
 	},
 	{
 		type = "item",
 		name = "br-iron-berry-seed",
-		stack_size = globals.CONSTANTS.SEED_STACK_SIZE,
+		stack_size = biorev.STACKSIZE.SEED,
 		icons = {
 			{
-				icon = globals.MODNAME .. "/graphics/icons/items/iron-berry-crop.png",
+				icon = biorev.GRAPHICS .. "/icons/items/iron-berry-crop.png",
 				icon_size = 64,
 			},
 			{
-				icon = globals.MODNAME .. "/graphics/icons/labels/pouch-label.png",
+				icon = biorev.GRAPHICS .. "/icons/labels/pouch-label.png",
 				icon_size = 64,
 			},
 		},
@@ -26,22 +26,22 @@ data:extend({
 	{
 		type = "item",
 		name = "br-copper-berry-crop",
-		stack_size = globals.CONSTANTS.CROP_STACK_SIZE,
-		icon = globals.MODNAME .. "/graphics/icons/items/copper-berry-crop.png",
+		stack_size = biorev.STACKSIZE.CROP,
+		icon = biorev.GRAPHICS .. "/icons/items/copper-berry-crop.png",
 		icon_size = 64,
 		subgroup = "br-agriculture-shrub-and-bush",
 	},
 	{
 		type = "item",
 		name = "br-copper-berry-seed",
-		stack_size = globals.CONSTANTS.SEED_STACK_SIZE,
+		stack_size = biorev.STACKSIZE.SEED,
 		icons = {
 			{
-				icon = globals.MODNAME .. "/graphics/icons/items/copper-berry-crop.png",
+				icon = biorev.GRAPHICS .. "/icons/items/copper-berry-crop.png",
 				icon_size = 64,
 			},
 			{
-				icon = globals.MODNAME .. "/graphics/icons/labels/pouch-label.png",
+				icon = biorev.GRAPHICS .. "/icons/labels/pouch-label.png",
 				icon_size = 64,
 			},
 		},
