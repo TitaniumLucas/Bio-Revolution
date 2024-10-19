@@ -32,10 +32,10 @@ local function init_all_forces()
 end
 
 -- Run the init or update function during initialization and configuration changes
-script.on_init(function()
-	-- game.print("DEBUG: Running on_init")
-	init_all_forces()
-end)
+-- script.on_init(function()
+-- 	-- game.print("DEBUG: Running on_init")
+-- 	init_all_forces()
+-- end)
 
 script.on_configuration_changed(function(cfg)
 	-- game.print("DEBUG: Running on_configuration_changed")
@@ -54,7 +54,7 @@ script.on_event(defines.events.on_player_created, function(e)
 end)
 
 -- Event listener for picking up an item (e.g., "wood")
-script.on_event(defines.events.on_picked_up_item, function(e)
+local unlock_research = function(e)
 	local player = game.players[e.player_index]
 	-- game.print(player)
 
@@ -82,4 +82,15 @@ script.on_event(defines.events.on_picked_up_item, function(e)
 	else
 		-- game.print("DEBUG: Picked up item '" .. e.item_stack.name .. "'")
 	end
-end)
+end
+
+local scripts = {}
+
+scripts.on_init = init_all_forces
+scripts.on_configuration_changed = init_or_update
+scripts.events = {
+	[defines.events.on_player_created] = init_all_forces,
+	[defines.events.on_picked_up_item] = unlock_research,
+}
+
+return scripts
