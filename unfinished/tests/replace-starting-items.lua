@@ -1,8 +1,8 @@
 -- local base_util = require("util") -- Functions from the factorio base
 
--- utils = utils or {}
+-- biorev.utils = biorev.utils or {}
 
--- utils.replace_all_stacks_in_inventory = function(player, old_item_name, new_item_name)
+-- biorev.utils.replace_all_stacks_in_inventory = function(player, old_item_name, new_item_name)
 -- 	local inv = player.get_main_inventory()
 -- 	print(player.character)
 -- 	local inv_size = #inv
@@ -18,7 +18,7 @@
 -- 	end
 -- end
 
--- utils.replace_starting_items = function(replacement_list)
+-- biorev.utils.replace_starting_items = function(replacement_list)
 -- 	local starting_items = remote.call("freeplay", "get_created_items")
 -- 	for _, replacement_item in pairs(replacement_list) do
 -- 		local name = replacement_item[1]

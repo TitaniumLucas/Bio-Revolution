@@ -1,4 +1,3 @@
-local utils = require("data-utils")
 require("biorev-globals")
 
 ---------------
@@ -10,7 +9,7 @@ local buildings = {
 	"farms",
 	--	"press",
 }
-utils.add_requirements("prototypes.buildings.", buildings)
+biorev.utils.add_requirements("prototypes.buildings.", buildings)
 
 --------------------------
 -- Groups and Subgroups --
@@ -24,7 +23,7 @@ local groups = {
 	"science-groups",
 	"soil-groups",
 }
-utils.add_requirements("prototypes.groups.", groups)
+biorev.utils.add_requirements("prototypes.groups.", groups)
 
 -----------
 -- Items --
@@ -33,25 +32,25 @@ utils.add_requirements("prototypes.groups.", groups)
 -- local algae = {
 -- 	"algae",
 -- }
--- utils.add_requirements("prototypes.items.algae.", algae)
+-- biorev.utils.add_requirements("prototypes.items.algae.", algae)
 
 local buildings = {
 	"cookers",
 	"farms",
 	"brain-plants",
 }
-utils.add_requirements("prototypes.items.buildings.", buildings)
+biorev.utils.add_requirements("prototypes.items.buildings.", buildings)
 
 local cooking = {
 	"bread",
 	"flour",
 }
-utils.add_requirements("prototypes.items.cooking.", cooking)
+biorev.utils.add_requirements("prototypes.items.cooking.", cooking)
 
 -- local creatures = {
 -- 	"spiderids",
 -- }
--- utils.add_requirements("prototypes.items.creatures.", creatures)
+-- biorev.utils.add_requirements("prototypes.items.creatures.", creatures)
 
 local crops = {
 	-- "aquatic-and-wetland",
@@ -63,47 +62,47 @@ local crops = {
 	-- "vegetable-and-herb",
 	-- "vine",
 }
-utils.add_requirements("prototypes.items.crops.", crops)
+biorev.utils.add_requirements("prototypes.items.crops.", crops)
 
 local cultivation = {
 	"plant-matter",
 	"planter-sticks",
 }
-utils.add_requirements("prototypes.items.cultivation.", cultivation)
+biorev.utils.add_requirements("prototypes.items.cultivation.", cultivation)
 
 -- local fermentation = {
 -- 	"alcohol",
 -- }
--- utils.add_requirements("prototypes.items.fermentation.", fermentation)
+-- biorev.utils.add_requirements("prototypes.items.fermentation.", fermentation)
 
 -- local fungi = {
 -- 	"yeast",
 --  "basic-mushroom-cluster",
 -- }
--- utils.add_requirements("prototypes.items.fungi.", fungi)
+-- biorev.utils.add_requirements("prototypes.items.fungi.", fungi)
 
 local intermediates = {
 	"fabrics",
 	"planks",
 }
-utils.add_requirements("prototypes.items.intermediates.", intermediates)
+biorev.utils.add_requirements("prototypes.items.intermediates.", intermediates)
 
 local science = {
 	"agriculture-packs",
 	"foraging-packs",
 }
-utils.add_requirements("prototypes.items.science-packs.", science)
+biorev.utils.add_requirements("prototypes.items.science-packs.", science)
 
 local soils = {
 	"metallic-soils",
 	"peat",
 }
-utils.add_requirements("prototypes.items.soils.", soils)
+biorev.utils.add_requirements("prototypes.items.soils.", soils)
 
 local tools = {
 	"tree-tap",
 }
-utils.add_requirements("prototypes.items.tools.", tools)
+biorev.utils.add_requirements("prototypes.items.tools.", tools)
 
 local trees = {
 	"fruit-trees",
@@ -111,13 +110,13 @@ local trees = {
 	"resin",
 	"wood",
 }
-utils.add_requirements("prototypes.items.trees.", trees)
+biorev.utils.add_requirements("prototypes.items.trees.", trees)
 
 -- local items = {
 -- 	"mash",
 -- 	"oil",
 -- }
--- utils.add_requirements("prototypes.items.", items)
+-- biorev.utils.add_requirements("prototypes.items.", items)
 
 -------------------------
 --- Recipe Categories ---
@@ -126,7 +125,7 @@ utils.add_requirements("prototypes.items.trees.", trees)
 local categories = {
 	"recipe-categories",
 }
-utils.add_requirements("prototypes.recipe-categories.", categories)
+biorev.utils.add_requirements("prototypes.recipe-categories.", categories)
 
 -------------
 -- Recipes --
@@ -136,48 +135,48 @@ local building = {
 	"cooker",
 	"farm",
 }
-utils.add_requirements("prototypes.recipes.building.", building)
+biorev.utils.add_requirements("prototypes.recipes.building.", building)
 
 local cooking = {
 	"bread",
 }
-utils.add_requirements("prototypes.recipes.cooking.", cooking)
+biorev.utils.add_requirements("prototypes.recipes.cooking.", cooking)
 
 local crafting = {
 	"fabrics",
 	"plant-fibre",
 }
-utils.add_requirements("prototypes.recipes.crafting.", crafting)
+biorev.utils.add_requirements("prototypes.recipes.crafting.", crafting)
 
 local crops = {
 	"field-and-fibre",
 	"shrub-and-bush",
 	"wild-seed-cluster-sorting",
 }
-utils.add_requirements("prototypes.recipes.crops.", crops)
+biorev.utils.add_requirements("prototypes.recipes.crops.", crops)
 
 local milling = {
 	"flour",
 }
-utils.add_requirements("prototypes.recipes.milling.", milling)
+biorev.utils.add_requirements("prototypes.recipes.milling.", milling)
 
 local science = {
 	"agriculture-packs",
 	"foraging-packs",
 }
-utils.add_requirements("prototypes.recipes.science-packs.", science)
+biorev.utils.add_requirements("prototypes.recipes.science-packs.", science)
 
 local trees = {
 	"logging",
 	"tapping",
 	"tree-germination",
 }
-utils.add_requirements("prototypes.recipes.trees.", trees)
+biorev.utils.add_requirements("prototypes.recipes.trees.", trees)
 
 local woodworking = {
 	"plank-cutting",
 }
-utils.add_requirements("prototypes.recipes.woodworking.", woodworking)
+biorev.utils.add_requirements("prototypes.recipes.woodworking.", woodworking)
 
 -- local recipes = {
 -- 	"cooking",
@@ -188,7 +187,7 @@ utils.add_requirements("prototypes.recipes.woodworking.", woodworking)
 -- 	"pressing",
 -- }
 
--- utils.add_requirements("prototypes.recipes.", recipes)
+-- biorev.utils.add_requirements("prototypes.recipes.", recipes)
 
 ---------------
 -- Resources --
@@ -202,7 +201,7 @@ local resources = {
 	"resource-categories",
 	"wild-seed-clusters",
 }
-utils.add_requirements("prototypes.resources.", resources)
+biorev.utils.add_requirements("prototypes.resources.", resources)
 
 ----------------
 -- Technology --
@@ -212,7 +211,7 @@ local technology = {
 	-- "agriculture-tech",
 	"foraging-tech",
 }
-utils.add_requirements("prototypes.technology.", technology)
+biorev.utils.add_requirements("prototypes.technology.", technology)
 
 --------------
 -- Wildlife --
@@ -223,7 +222,7 @@ local wildlife = {
 	"brain-plants",
 	"seed-bushes",
 }
-utils.add_requirements("prototypes.wildlife.", wildlife)
+biorev.utils.add_requirements("prototypes.wildlife.", wildlife)
 
 ----------------------------
 -- Dummy Placeholder & Tests
@@ -234,7 +233,7 @@ local dummy = {
 	"dummy-groups",
 	-- "dummy-tech",
 }
-utils.add_requirements("prototypes.dummy.", dummy)
+biorev.utils.add_requirements("prototypes.dummy.", dummy)
 
 --- TESTS ---
 require("unfinished.tests.data-hidden-techs")

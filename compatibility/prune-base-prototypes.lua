@@ -584,7 +584,7 @@ local base_fluids = {
 --- Apply Compatibility Patch ---
 ---------------------------------
 
-utils.hide_recipes(base_recipes)
-utils.hide_techs(base_tech)
--- utils.remove_items(base_items)
--- utils.remove_fluids(base_fluids)
+biorev.utils.hide_recipes(base_recipes)
+biorev.utils.hide_techs(base_tech)
+-- biorev.utils.remove_items(base_items)
+-- biorev.utils.remove_fluids(base_fluids)

@@ -1,5 +1,3 @@
-local utils = require("data-utils")
-
 generator = {}
 
 function generator.make_item(item)

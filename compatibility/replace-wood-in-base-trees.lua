@@ -6,9 +6,9 @@ setmetatable(tree_replace_map, {
 	end,
 })
 
-utils = utils or {}
+biorev.utils = biorev.utils or {}
 
-utils.add_wood_replacement = function(tree_name, resource_name)
+biorev.utils.add_wood_replacement = function(tree_name, resource_name)
 	tree_replace_map[tree_name] = resource_name
 end
 

@@ -7,4 +7,4 @@ local supported_compatibility = {
 	"replace-wood-in-base-trees",
 }
 
-utils.add_requirements("compatibility.", supported_compatibility)
+biorev.utils.add_requirements("compatibility.", supported_compatibility)
