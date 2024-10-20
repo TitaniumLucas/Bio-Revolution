@@ -47,4 +47,9 @@ data:extend({
 		type = "recipe-category",
 		name = "br-tree-tapping",
 	},
+	-- Seed Sorting
+	{
+		type = "recipe-category",
+		name = "br-seed-sorting",
+	},
 })

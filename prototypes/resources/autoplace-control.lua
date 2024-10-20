@@ -11,6 +11,13 @@ data:extend({
 		name = "br-peat",
 		category = "resource",
 		can_be_disabled = true,
-		richness = "true",
+		richness = true,
+	},
+	{
+		type = "autoplace-control",
+		name = "br-organics",
+		category = "resource",
+		can_be_disabled = true,
+		richness = true,
 	},
 })

@@ -1,4 +1,31 @@
 data:extend({
+	-- #region Tier 0
+	{
+		type = "item",
+		name = "br-tomato-crop",
+		stack_size = biorev.STACKSIZE.CROP,
+		icon = biorev.GRAPHICS .. "/icons/items/tomato-crop.png",
+		icon_size = 64,
+		subgroup = "br-agriculture-shrub-and-bush",
+	},
+	{
+		type = "item",
+		name = "br-tomato-seed",
+		stack_size = biorev.STACKSIZE.SEED,
+		icons = {
+			{
+				icon = biorev.GRAPHICS .. "/icons/items/tomato-crop.png",
+				icon_size = 64,
+			},
+			{
+				icon = biorev.GRAPHICS .. "/icons/labels/pouch-label.png",
+				icon_size = 64,
+			},
+		},
+		subgroup = "br-agriculture-shrub-and-bush",
+	},
+	-- #endregion
+	-- #region Tier 1
 	{
 		type = "item",
 		name = "br-iron-berry-crop",
@@ -47,6 +74,7 @@ data:extend({
 		},
 		subgroup = "br-agriculture-shrub-and-bush",
 	},
+	-- #endregion
 })
 
 -- -- Crops

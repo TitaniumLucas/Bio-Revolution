@@ -84,4 +84,11 @@ data:extend({
 		group = "br-agriculture",
 		order = "x",
 	},
+	-- Unsorted/Other
+	{
+		type = "item-subgroup",
+		name = "br-agriculture-other",
+		group = "br-agriculture",
+		order = "zzz",
+	},
 })

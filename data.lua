@@ -59,6 +59,7 @@ local crops = {
 	-- "flower",
 	-- "root-and-tuber",
 	"shrub-and-bush",
+	"wild-seed-clusters",
 	-- "vegetable-and-herb",
 	-- "vine",
 }
@@ -151,6 +152,7 @@ utils.add_requirements("prototypes.recipes.crafting.", crafting)
 local crops = {
 	"field-and-fibre",
 	"shrub-and-bush",
+	"wild-seed-cluster-sorting",
 }
 utils.add_requirements("prototypes.recipes.crops.", crops)
 
@@ -197,6 +199,8 @@ local resources = {
 	-- "basic-mushroom-cluster",
 	"metallic-soils",
 	"peat",
+	"resource-categories",
+	"wild-seed-clusters",
 }
 utils.add_requirements("prototypes.resources.", resources)
 
