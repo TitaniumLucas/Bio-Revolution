@@ -1,3 +1,7 @@
+local resource_autoplace = require("resource-autoplace")
+
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["br-brain-plant-lab"] = {}
+
 data:extend({
 	{
 		type = "lab",
@@ -39,15 +43,19 @@ data:extend({
 		},
 		researching_speed = 1,
 		inputs = { "br-foraging-pack-1", "br-agriculture-pack-1" },
-		autoplace = {
-			max_probability = 0.005,
-			peaks = {
-				{
-					influence = 0.005,
-					min_influence = 0,
-				},
-			},
-		},
+		autoplace = resource_autoplace.resource_autoplace_settings({
+			name = "br-organics",
+			patch_set_name = "br-brain-plant",
+			order = "c",
+			base_density = 2,
+			base_spots_per_km2 = 1,
+			random_probability = 1 / 48,
+			random_spot_size_minimum = 1,
+			random_spot_size_maximum = 1,
+			additional_richness = 0,
+			has_starting_area_placement = true,
+			regular_rq_factor_multiplier = 1,
+		}),
 		map_color = { 1, 1, 1 },
 	},
 })

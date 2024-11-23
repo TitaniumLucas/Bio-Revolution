@@ -34,6 +34,14 @@ function biorev.utils.add_requirements(path, filenames)
 	end
 end
 
+function biorev.utils.hide_all_non_biorev_recipes()
+	for _, recipe in pairs(data.raw.recipe) do
+		if string.sub(recipe.name, 1, 3) ~= "br-" then
+			biorev.utils.hide_recipe(recipe.name)
+		end
+	end
+end
+
 function biorev.utils.hide_recipes(recipes)
 	for _, recipe in pairs(recipes) do
 		biorev.utils.hide_recipe(recipe)
@@ -52,6 +60,14 @@ function biorev.utils.hide_recipe(recipe)
 
 	if data.raw.recipe[recipe].expensive then
 		data.raw.recipe[recipe].expensive.hidden = true
+	end
+end
+
+function biorev.utils.hide_all_non_biorev_techs()
+	for _, tech in pairs(data.raw.technology) do
+		if string.sub(tech.name, 1, 3) ~= "br-" then
+			biorev.utils.hide_tech(tech.name)
+		end
 	end
 end
 

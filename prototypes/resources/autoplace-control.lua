@@ -21,3 +21,6 @@ data:extend({
 		richness = true,
 	},
 })
+
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["br-peat"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["br-organics"] = {}

@@ -1,5 +1,7 @@
 local resource_autoplace = require("resource-autoplace")
 
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["br-peat"] = {}
+
 data:extend({
 	{
 		type = "resource",
@@ -19,10 +21,11 @@ data:extend({
 		autoplace = resource_autoplace.resource_autoplace_settings({
 			name = "br-peat",
 			order = "b",
-			base_density = 2,
+			base_density = 5,
 			has_starting_area_placement = true,
 			starting_re_factor_multipler = 1.5,
 			regular_rq_factor_multiplier = 2,
+			candidate_count = 22,
 		}),
 		stage_counts = { 10000, 6330, 3670, 1930, 870, 270, 100, 50 },
 		stages = {

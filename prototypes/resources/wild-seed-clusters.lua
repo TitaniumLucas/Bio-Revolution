@@ -1,5 +1,7 @@
 local resource_autoplace = require("resource-autoplace")
 
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["br-wild-seed-cluster"] = {}
+
 data:extend({
 	{
 		type = "resource",
@@ -28,13 +30,14 @@ data:extend({
 		selection_box = { { -0.5, -0.5 }, { 0.5, 0.5 } },
 		autoplace = resource_autoplace.resource_autoplace_settings({
 			name = "br-organics",
+			patch_set_name = "br-wild-seed-cluster",
 			order = "c",
-			base_density = 8.2,
-			base_spots_per_km2 = 1.8,
+			base_density = 6,
+			base_spots_per_km2 = 2,
 			random_probability = 1 / 48,
 			random_spot_size_minimum = 1,
-			random_spot_size_maximum = 1, -- don't randomize spot size
-			additional_richness = 220000, -- this increases the total everywhere, so base_density needs to be decreased to compensate
+			random_spot_size_maximum = 1,
+			additional_richness = 200000,
 			has_starting_area_placement = true,
 			regular_rq_factor_multiplier = 1,
 		}),

@@ -236,4 +236,4 @@ local dummy = {
 biorev.utils.add_requirements("prototypes.dummy.", dummy)
 
 --- TESTS ---
-require("unfinished.tests.data-hidden-techs")
+-- require("unfinished.tests.data-hidden-techs")

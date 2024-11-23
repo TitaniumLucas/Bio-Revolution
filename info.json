@@ -3,9 +3,9 @@
     "version": "0.0.1",
     "title": "Bio Revolution",
     "author": "TitaniumLucas",
-    "factorio_version": "1.1",
+    "factorio_version": "2.0",
     "dependencies": [
-        "base >= 1.1"
+        "base >= 2.0"
     ],
     "description": "Experience the biological revolution. Bio Revolution aims to provide alternate recipies involving biological components."
 }
