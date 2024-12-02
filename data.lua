@@ -5,8 +5,11 @@ require("biorev-globals")
 ---------------
 
 local buildings = {
+	"bommel-hives",
 	"cookers",
 	"farms",
+	"spiderid-nests",
+	"traps",
 	--	"press",
 }
 biorev.utils.add_requirements("prototypes.buildings.", buildings)
@@ -19,6 +22,7 @@ local groups = {
 	"agriculture-groups",
 	"cooking-groups",
 	"creature-groups",
+	"fluid-groups",
 	"intermediate-groups",
 	"science-groups",
 	"soil-groups",
@@ -34,28 +38,30 @@ biorev.utils.add_requirements("prototypes.groups.", groups)
 -- }
 -- biorev.utils.add_requirements("prototypes.items.algae.", algae)
 
-local buildings = {
-	"cookers",
-	"farms",
-	"brain-plants",
-}
-biorev.utils.add_requirements("prototypes.items.buildings.", buildings)
-
 local cooking = {
 	"bread",
 	"flour",
 }
 biorev.utils.add_requirements("prototypes.items.cooking.", cooking)
 
--- local creatures = {
--- 	"spiderids",
--- }
--- biorev.utils.add_requirements("prototypes.items.creatures.", creatures)
+local creatures = {
+	"bommels",
+	"snackworm",
+	"spiderids",
+}
+biorev.utils.add_requirements("prototypes.items.creatures.", creatures)
+
+local products = {
+	"honeycomb",
+	"silk",
+	"wax",
+}
+biorev.utils.add_requirements("prototypes.items.creature-products.", products)
 
 local crops = {
 	-- "aquatic-and-wetland",
 	"field-and-fibre",
-	-- "flower",
+	"flower",
 	-- "root-and-tuber",
 	"shrub-and-bush",
 	"wild-seed-clusters",
@@ -100,6 +106,7 @@ local soils = {
 biorev.utils.add_requirements("prototypes.items.soils.", soils)
 
 local tools = {
+	"trap-bait",
 	"tree-tap",
 }
 biorev.utils.add_requirements("prototypes.items.tools.", tools)
@@ -112,11 +119,14 @@ local trees = {
 }
 biorev.utils.add_requirements("prototypes.items.trees.", trees)
 
--- local items = {
--- 	"mash",
--- 	"oil",
--- }
--- biorev.utils.add_requirements("prototypes.items.", items)
+--------------
+--- Fluids ---
+--------------
+
+local fluids = {
+	"honey",
+}
+biorev.utils.add_requirements("prototypes.fluids.", fluids)
 
 -------------------------
 --- Recipe Categories ---
@@ -147,6 +157,12 @@ local crafting = {
 	"plant-fibre",
 }
 biorev.utils.add_requirements("prototypes.recipes.crafting.", crafting)
+
+local creatures = {
+	"bommels",
+	"trapping",
+}
+biorev.utils.add_requirements("prototypes.recipes.creatures.", creatures)
 
 local crops = {
 	"field-and-fibre",

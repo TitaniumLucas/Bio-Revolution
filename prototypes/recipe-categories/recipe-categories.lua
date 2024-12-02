@@ -52,4 +52,19 @@ data:extend({
 		type = "recipe-category",
 		name = "br-seed-sorting",
 	},
+	-- Basic Trapping
+	{
+		type = "recipe-category",
+		name = "br-basic-trapping",
+	},
+	-- Basic Bommel Cultivation
+	{
+		type = "recipe-category",
+		name = "br-basic-bommel-cultivation",
+	},
+	-- Basic Spiderid Cultivation
+	{
+		type = "recipe-category",
+		name = "br-basic-spiderid-cultivation",
+	},
 })

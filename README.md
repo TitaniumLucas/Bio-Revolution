@@ -7,6 +7,11 @@ This mod aims to act as an overhaul for Factorio, replacing industry with agricu
 This mod is currently still a work in progress.
 
 ## Planned/Potential Features
+- Three factory phases
+    - Artisan: Slow buildings with low throughput but low requirements
+    - Industrial: Large buildings with high throughput but high infrastucture costs
+    - Interplanetary: Recipes start requiring colonies on other planets to generate unique resources
+- Design concept of: Expensive Infrastructure, Cheap Resources
 - Add other biological sources for industry (might wait for spoilage before continuing here)
     - Algae
     - Creatures
@@ -14,7 +19,8 @@ This mod is currently still a work in progress.
     - Fungi
     - Insects/Bugs
     - Mosses
-- Separated Tech Tree so that agriculture sciences only need products from agriculture to continue researching.
+- Separated tech-tree including science packs for different disciplines.
+- Beacon-like buildings to boost production for certain buildings. Similar to PyAlienLife but as a separate building.
 - Balanced production values
 - Art made in Blender instead of MS Paint
 

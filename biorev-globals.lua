@@ -107,6 +107,10 @@ function biorev.utils.remove_fluid(fluid)
 	end
 end
 
+function biorev.utils.rgb_color(r, g, b)
+	return { r = (r or 0) / 255, g = (g or 0) / 255, b = (b or 0) / 255 }
+end
+
 -- #endregion
 
 -- #region Placeholder values

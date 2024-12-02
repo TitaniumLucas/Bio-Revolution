@@ -4,6 +4,15 @@ data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["br-b
 
 data:extend({
 	{
+		type = "item",
+		name = "br-brain-plant-lab",
+		place_result = "br-brain-plant-lab",
+		stack_size = biorev.STACKSIZE.BUILDING,
+		icon = biorev.GRAPHICS .. "/icons/buildings/brain-plant.png",
+		icon_size = 64,
+		subgroup = "br-science-buildings",
+	},
+	{
 		type = "lab",
 		name = "br-brain-plant-lab",
 		icon = biorev.GRAPHICS .. "/icons/buildings/brain-plant.png",

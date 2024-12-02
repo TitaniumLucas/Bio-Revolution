@@ -8,8 +8,26 @@ data:extend({
 	},
 	{
 		type = "item-subgroup",
+		name = "br-creatures-buildings",
+		group = "br-creatures",
+		order = "b",
+	},
+	{
+		type = "item-subgroup",
 		name = "br-creatures-insects",
 		group = "br-creatures",
-		order = "a",
+		order = "i",
+	},
+	{
+		type = "item-subgroup",
+		name = "br-creatures-traps",
+		group = "br-creatures",
+		order = "t",
+	},
+	{
+		type = "item-subgroup",
+		name = "br-creatures-products",
+		group = "br-creatures",
+		order = "z",
 	},
 })
