@@ -23,7 +23,7 @@ data:extend({
 		icon = biorev.PLACEHOLDER.FLUID.ICON_FILEPATH,
 		icon_size = biorev.PLACEHOLDER.FLUID.ICON_SIZE,
 		flags = { "placeable-neutral" },
-		category = "basic-fluid",
+		category = "artisan-fluid",
 		subgroup = "raw-resource",
 		order = "z",
 		infinite = true,

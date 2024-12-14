@@ -1,255 +1,242 @@
 require("biorev-globals")
 
----------------
--- Buildings --
----------------
+local requirements = {
+	folder = "",
+	files = {},
+	sub_folders = {
+		{
+			folder = "prototypes",
+			files = {},
+			sub_folders = {
+				{
+					folder = "buildings",
+					files = {
+						"bommel-hives",
+						"cookers",
+						"farms",
+						"spiderid-nests",
+						"traps",
+					},
+					sub_folders = {},
+				},
+				{
+					folder = "categories",
+					files = {
+						"recipe-categories",
+						"resource-categories",
+					},
+					sub_folders = {},
+				},
+				{
+					folder = "fluids",
+					files = {
+						"honey",
+					},
+					sub_folders = {},
+				},
+				{
+					folder = "groups",
+					files = {
+						"agriculture-groups",
+						"cooking-groups",
+						"creature-groups",
+						"fluid-groups",
+						"intermediate-groups",
+						"science-groups",
+						"soil-groups",
+					},
+					sub_folders = {},
+				},
+				{
+					folder = "items",
+					files = {},
+					sub_folders = {
+						{
+							folder = "cooking",
+							files = {
+								"bread",
+								"flour",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "creature-products",
+							files = {
+								"honeycomb",
+								"silk",
+								"wax",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "creatures",
+							files = {
+								"bommels",
+								"snackworm",
+								"spiderids",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "crops",
+							files = {
+								"field-and-fibre",
+								"flower",
+								"shrub-and-bush",
+								"wild-seed-clusters",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "cultivation",
+							files = {
+								"plant-matter",
+								"planter-sticks",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "intermediates",
+							files = {
+								"fabrics",
+								"planks",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "science-packs",
+							files = {
+								"agriculture-packs",
+								"foraging-packs",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "soils",
+							files = {
+								"metallic-soils",
+								"peat",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "tools",
+							files = {
+								"trap-bait",
+								"tree-tap",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "trees",
+							files = {
+								"fruit-trees",
+								"lumber-trees",
+								"resin",
+								"wood",
+							},
+							sub_folders = {},
+						},
+					},
+				},
 
-local buildings = {
-	"bommel-hives",
-	"cookers",
-	"farms",
-	"spiderid-nests",
-	"traps",
-	--	"press",
+				{
+					folder = "recipes",
+					files = {},
+					sub_folders = {
+						{
+							folder = "cooking",
+							files = {
+								"bread",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "crafting",
+							files = {
+								"fabrics",
+								"plant-fibre",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "creatures",
+							files = {
+								"bommels",
+								"trapping",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "crops",
+							files = {
+								"field-and-fibre",
+								"shrub-and-bush",
+								"wild-seed-cluster-sorting",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "milling",
+							files = {
+								"flour",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "science-packs",
+							files = {
+								"agriculture-packs",
+								"foraging-packs",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "trees",
+							files = {
+								"logging",
+								"tapping",
+								"tree-germination",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "woodworking",
+							files = {
+								"plank-cutting",
+							},
+							sub_folder = {},
+						},
+					},
+				},
+				{
+					folder = "resources",
+					files = {
+						"autoplace-control",
+						"metallic-soils",
+						"peat",
+						"wild-seed-clusters",
+					},
+					sub_folders = {},
+				},
+				{
+					folder = "technology",
+					files = {
+						"foraging-tech",
+					},
+					sub_folders = {},
+				},
+				{
+					folder = "wildlife",
+					files = {
+						"brain-plants",
+						"seed-bushes",
+					},
+					sub_folders = {},
+				},
+			},
+		},
+	},
 }
-biorev.utils.add_requirements("prototypes.buildings.", buildings)
 
---------------------------
--- Groups and Subgroups --
---------------------------
-
-local groups = {
-	"agriculture-groups",
-	"cooking-groups",
-	"creature-groups",
-	"fluid-groups",
-	"intermediate-groups",
-	"science-groups",
-	"soil-groups",
-}
-biorev.utils.add_requirements("prototypes.groups.", groups)
-
------------
--- Items --
------------
-
--- local algae = {
--- 	"algae",
--- }
--- biorev.utils.add_requirements("prototypes.items.algae.", algae)
-
-local cooking = {
-	"bread",
-	"flour",
-}
-biorev.utils.add_requirements("prototypes.items.cooking.", cooking)
-
-local creatures = {
-	"bommels",
-	"snackworm",
-	"spiderids",
-}
-biorev.utils.add_requirements("prototypes.items.creatures.", creatures)
-
-local products = {
-	"honeycomb",
-	"silk",
-	"wax",
-}
-biorev.utils.add_requirements("prototypes.items.creature-products.", products)
-
-local crops = {
-	-- "aquatic-and-wetland",
-	"field-and-fibre",
-	"flower",
-	-- "root-and-tuber",
-	"shrub-and-bush",
-	"wild-seed-clusters",
-	-- "vegetable-and-herb",
-	-- "vine",
-}
-biorev.utils.add_requirements("prototypes.items.crops.", crops)
-
-local cultivation = {
-	"plant-matter",
-	"planter-sticks",
-}
-biorev.utils.add_requirements("prototypes.items.cultivation.", cultivation)
-
--- local fermentation = {
--- 	"alcohol",
--- }
--- biorev.utils.add_requirements("prototypes.items.fermentation.", fermentation)
-
--- local fungi = {
--- 	"yeast",
---  "basic-mushroom-cluster",
--- }
--- biorev.utils.add_requirements("prototypes.items.fungi.", fungi)
-
-local intermediates = {
-	"fabrics",
-	"planks",
-}
-biorev.utils.add_requirements("prototypes.items.intermediates.", intermediates)
-
-local science = {
-	"agriculture-packs",
-	"foraging-packs",
-}
-biorev.utils.add_requirements("prototypes.items.science-packs.", science)
-
-local soils = {
-	"metallic-soils",
-	"peat",
-}
-biorev.utils.add_requirements("prototypes.items.soils.", soils)
-
-local tools = {
-	"trap-bait",
-	"tree-tap",
-}
-biorev.utils.add_requirements("prototypes.items.tools.", tools)
-
-local trees = {
-	"fruit-trees",
-	"lumber-trees",
-	"resin",
-	"wood",
-}
-biorev.utils.add_requirements("prototypes.items.trees.", trees)
-
---------------
---- Fluids ---
---------------
-
-local fluids = {
-	"honey",
-}
-biorev.utils.add_requirements("prototypes.fluids.", fluids)
-
--------------------------
---- Recipe Categories ---
--------------------------
-
-local categories = {
-	"recipe-categories",
-}
-biorev.utils.add_requirements("prototypes.recipe-categories.", categories)
-
--------------
--- Recipes --
--------------
-
-local building = {
-	"cooker",
-	"farm",
-}
-biorev.utils.add_requirements("prototypes.recipes.building.", building)
-
-local cooking = {
-	"bread",
-}
-biorev.utils.add_requirements("prototypes.recipes.cooking.", cooking)
-
-local crafting = {
-	"fabrics",
-	"plant-fibre",
-}
-biorev.utils.add_requirements("prototypes.recipes.crafting.", crafting)
-
-local creatures = {
-	"bommels",
-	"trapping",
-}
-biorev.utils.add_requirements("prototypes.recipes.creatures.", creatures)
-
-local crops = {
-	"field-and-fibre",
-	"shrub-and-bush",
-	"wild-seed-cluster-sorting",
-}
-biorev.utils.add_requirements("prototypes.recipes.crops.", crops)
-
-local milling = {
-	"flour",
-}
-biorev.utils.add_requirements("prototypes.recipes.milling.", milling)
-
-local science = {
-	"agriculture-packs",
-	"foraging-packs",
-}
-biorev.utils.add_requirements("prototypes.recipes.science-packs.", science)
-
-local trees = {
-	"logging",
-	"tapping",
-	"tree-germination",
-}
-biorev.utils.add_requirements("prototypes.recipes.trees.", trees)
-
-local woodworking = {
-	"plank-cutting",
-}
-biorev.utils.add_requirements("prototypes.recipes.woodworking.", woodworking)
-
--- local recipes = {
--- 	"cooking",
--- 	"cultivation",
--- 	"fermentation",
--- 	"forage",
--- 	"mashing",
--- 	"pressing",
--- }
-
--- biorev.utils.add_requirements("prototypes.recipes.", recipes)
-
----------------
--- Resources --
----------------
-
-local resources = {
-	"autoplace-control",
-	-- "basic-mushroom-cluster",
-	"metallic-soils",
-	"peat",
-	"resource-categories",
-	"wild-seed-clusters",
-}
-biorev.utils.add_requirements("prototypes.resources.", resources)
-
-----------------
--- Technology --
-----------------
-
-local technology = {
-	-- "agriculture-tech",
-	"foraging-tech",
-}
-biorev.utils.add_requirements("prototypes.technology.", technology)
-
---------------
--- Wildlife --
---------------
-
-local wildlife = {
-	"autoplace-control",
-	"brain-plants",
-	"seed-bushes",
-}
-biorev.utils.add_requirements("prototypes.wildlife.", wildlife)
-
-----------------------------
--- Dummy Placeholder & Tests
-----------------------------
-
-local dummy = {
-	"dummy-buildings",
-	"dummy-groups",
-	-- "dummy-tech",
-}
-biorev.utils.add_requirements("prototypes.dummy.", dummy)
-
---- TESTS ---
--- require("unfinished.tests.data-hidden-techs")
+biorev.utils.load_requirements_table("", requirements)

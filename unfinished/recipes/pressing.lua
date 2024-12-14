@@ -21,9 +21,9 @@ data:extend({ pressRapeseed })
 
 -- Buildings
 
-local basicPress = {
+local artisanPress = {
 	type = "recipe",
-	name = "br-craft-basic-press",
+	name = "br-craft-artisan-press",
 	icon = biorev.PLACEHOLDER.ITEM.ICON_FILEPATH,
 	icon_size = biorev.PLACEHOLDER.ITEM.ICON_SIZE,
 	category = "br-pressing",
@@ -32,8 +32,8 @@ local basicPress = {
 	energy_required = 5,
 	ingredients = {},
 	results = {
-		{ type = "item", name = "br-basic-press", amount = 1 },
+		{ type = "item", name = "br-artisan-press", amount = 1 },
 	},
 }
 
-data:extend({ basicPress })
+data:extend({ artisanPress })

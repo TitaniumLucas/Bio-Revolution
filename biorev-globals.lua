@@ -26,7 +26,25 @@ biorev.STACKSIZE = {
 -- #endregion
 
 -- #region utils
-biorev.utils = {}
+biorev.utils = biorev.utils or {}
+
+function biorev.utils.load_requirements_table(path, table)
+	local file_path = path or ""
+	local folder = table.folder or ""
+	local files = table.files or {}
+	local sub_folders = table.sub_folders or {}
+
+	local dir = file_path .. folder
+	if #dir ~= 0 then -- To prevent adding a decimal at the beginning of a string
+		dir = dir .. "."
+	end
+
+	biorev.utils.add_requirements(dir, files) -- Add files in current directory
+
+	for _, sub_table in pairs(sub_folders) do
+		biorev.utils.load_requirements_table(dir, sub_table) -- Do recursion on all sub folders
+	end
+end
 
 function biorev.utils.add_requirements(path, filenames)
 	for _, filename in pairs(filenames) do

@@ -1,11 +1,11 @@
 data:extend({
 	{
 		type = "recipe",
-		name = "br-simple-cultivation-tomato",
-		localised_name = { "recipe-name.br-simple-cultivation", { "item-name.br-tomato-crop" } },
+		name = "br-artisan-cultivation-tomato",
+		localised_name = { "recipe-name.br-artisan-cultivation", { "item-name.br-tomato-crop" } },
 		icon = biorev.GRAPHICS .. "/icons/items/tomato-crop.png",
 		icon_size = 64,
-		category = "br-simple-cultivation",
+		category = "br-artisan-cultivation",
 		subgroup = "br-agriculture-shrub-and-bush",
 		energy_required = 1,
 		ingredients = {
@@ -20,11 +20,11 @@ data:extend({
 	},
 	{
 		type = "recipe",
-		name = "br-simple-cultivation-iron-berry",
-		localised_name = { "recipe-name.br-simple-cultivation", { "item-name.br-iron-berry-crop" } },
+		name = "br-artisan-cultivation-iron-berry",
+		localised_name = { "recipe-name.br-artisan-cultivation", { "item-name.br-iron-berry-crop" } },
 		icon = biorev.GRAPHICS .. "/icons/items/iron-berry-crop.png",
 		icon_size = 64,
-		category = "br-simple-cultivation",
+		category = "br-artisan-cultivation",
 		subgroup = "br-agriculture-shrub-and-bush",
 		energy_required = 1,
 		ingredients = {
@@ -40,12 +40,12 @@ data:extend({
 	},
 	{
 		type = "recipe",
-		name = "br-simple-cultivation-copper-berry",
-		localised_name = { "recipe-name.br-simple-cultivation", { "item-name.br-copper-berry-crop" } },
+		name = "br-artisan-cultivation-copper-berry",
+		localised_name = { "recipe-name.br-artisan-cultivation", { "item-name.br-copper-berry-crop" } },
 
 		icon = biorev.GRAPHICS .. "/icons/items/copper-berry-crop.png",
 		icon_size = 64,
-		category = "br-simple-cultivation",
+		category = "br-artisan-cultivation",
 		subgroup = "br-agriculture-shrub-and-bush",
 		energy_required = 1,
 		ingredients = {

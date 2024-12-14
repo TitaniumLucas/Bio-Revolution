@@ -5,7 +5,7 @@ data:extend({
 
 	{
 		type = "recipe",
-		name = "br-basic-breed-bommel",
+		name = "br-artisan-breed-bommel",
 		icons = {
 			{
 				icon = biorev.GRAPHICS .. "/icons/items/bommel.png",
@@ -16,7 +16,7 @@ data:extend({
 				icon_size = 64,
 			},
 		},
-		category = "br-basic-bommel-cultivation",
+		category = "br-artisan-bommel-cultivation",
 		subgroup = "br-creatures-insects",
 		energy_required = 1,
 		ingredients = {
@@ -30,10 +30,10 @@ data:extend({
 	},
 	{
 		type = "recipe",
-		name = "br-basic-hatch-bommel",
+		name = "br-artisan-hatch-bommel",
 		icon = biorev.GRAPHICS .. "/icons/items/bommel.png",
 		icon_size = 64,
-		category = "br-basic-bommel-cultivation",
+		category = "br-artisan-bommel-cultivation",
 		subgroup = "br-creatures-insects",
 		energy_required = 1,
 		ingredients = {
@@ -45,7 +45,7 @@ data:extend({
 	},
 	{
 		type = "recipe",
-		name = "br-basic-hatch-bommel-queen",
+		name = "br-artisan-hatch-bommel-queen",
 		icons = {
 			{
 				icon = biorev.GRAPHICS .. "/icons/items/bommel.png",
@@ -56,7 +56,7 @@ data:extend({
 				icon_size = 64,
 			},
 		},
-		category = "br-basic-bommel-cultivation",
+		category = "br-artisan-bommel-cultivation",
 		subgroup = "br-creatures-insects",
 		energy_required = 1,
 		ingredients = {
@@ -68,10 +68,10 @@ data:extend({
 	},
 	{
 		type = "recipe",
-		name = "br-basic-bommel-honeycomb",
+		name = "br-artisan-bommel-honeycomb",
 		icon = biorev.GRAPHICS .. "/icons/items/honeycomb.png",
 		icon_size = 64,
-		category = "br-basic-bommel-cultivation",
+		category = "br-artisan-bommel-cultivation",
 		subgroup = "br-creatures-insects",
 		energy_required = 1,
 		ingredients = {

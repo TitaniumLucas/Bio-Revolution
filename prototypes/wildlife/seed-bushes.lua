@@ -55,7 +55,7 @@ data:extend({
 	-- 	name = "br-seed-bush-02",
 	-- },
 	-- {
-	-- 	type = "simple-entity",
+	-- 	type = "artisan-entity",
 	-- 	name = "br-seed-bush-02",
 	-- 	icon = globals.MODNAME .. "/graphics/entities/wildlife/seed-bush-02.png",
 	-- 	icon_size = 64,

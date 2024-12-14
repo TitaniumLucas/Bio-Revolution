@@ -16,7 +16,7 @@
 -- 	"assembling-machine-3",
 -- 	"atomic-bomb",
 -- 	"automation-science-pack",
--- 	"basic-oil-processing",
+-- 	"artisan-oil-processing",
 -- 	"battery",
 -- 	"battery-equipment",
 -- 	"battery-mk2-equipment",

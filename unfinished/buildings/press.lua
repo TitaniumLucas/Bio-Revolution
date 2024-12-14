@@ -1,7 +1,7 @@
-local basicPressItem = {
+local artisanPressItem = {
 	type = "item",
-	name = "br-basic-press",
-	place_result = "br-basic-press",
+	name = "br-artisan-press",
+	place_result = "br-artisan-press",
 	stack_size = biorev.STACKSIZE.BUILDING,
 	icon = biorev.PLACEHOLDER.ITEM.ICON_FILEPATH,
 	icon_size = biorev.PLACEHOLDER.ITEM.ICON_SIZE,
@@ -9,13 +9,13 @@ local basicPressItem = {
 	subgroup = biorev.PLACEHOLDER.ITEM.SUBGROUP,
 }
 
-local basicPress = {
+local artisanPress = {
 	type = "assembling-machine",
-	name = "br-basic-press",
+	name = "br-artisan-press",
 	icon = biorev.PLACEHOLDER.ITEM.ICON_FILEPATH,
 	icon_size = biorev.PLACEHOLDER.ITEM.ICON_SIZE,
 	flags = { "placeable-player", "player-creation", "placeable-neutral" },
-	minable = { mining_time = 1, result = "br-basic-press" },
+	minable = { mining_time = 1, result = "br-artisan-press" },
 	max_health = 200,
 	fluid_boxes = {
 		{
@@ -38,4 +38,4 @@ local basicPress = {
 	energy_usage = "1W",
 }
 
-data:extend({ basicPressItem, basicPress })
+data:extend({ artisanPressItem, artisanPress })

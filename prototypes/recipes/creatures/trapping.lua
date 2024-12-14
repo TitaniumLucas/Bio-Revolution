@@ -5,10 +5,10 @@ data:extend({
 
 	{
 		type = "recipe",
-		name = "br-basic-trap-pollen",
+		name = "br-artisan-trap-pollen",
 		icon = biorev.GRAPHICS .. "/icons/items/bait-pollen.png",
 		icon_size = 64,
-		category = "br-basic-trapping",
+		category = "br-artisan-trapping",
 		subgroup = "br-creatures-traps",
 		energy_required = 1,
 		ingredients = {
@@ -23,10 +23,10 @@ data:extend({
 	},
 	{
 		type = "recipe",
-		name = "br-basic-trap-insect",
+		name = "br-artisan-trap-insect",
 		icon = biorev.GRAPHICS .. "/icons/items/bait-insect.png",
 		icon_size = 64,
-		category = "br-basic-trapping",
+		category = "br-artisan-trapping",
 		subgroup = "br-creatures-traps",
 		energy_required = 1,
 		ingredients = {

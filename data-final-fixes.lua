@@ -1,6 +1,6 @@
 local handcraft_categories = {
 	"br-woodworking",
-	"br-basic-building",
+	"br-artisan-building",
 }
 
 for _, category in pairs(handcraft_categories) do

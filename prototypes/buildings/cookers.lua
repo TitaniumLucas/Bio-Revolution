@@ -29,7 +29,7 @@ data:extend({
 			},
 		},
 		working_sound = {
-			sound = { filename = biorev.MODNAME .. "/sound/basic-cooker.ogg", volume = 0.7 },
+			sound = { filename = biorev.MODNAME .. "/sound/artisan-cooker.ogg", volume = 0.7 },
 			apparent_volume = 1,
 		},
 		crafting_categories = { "br-cooking" },
@@ -39,5 +39,18 @@ data:extend({
 			fuel_inventory_size = 10,
 		},
 		energy_usage = "1MW",
+	},
+	{
+		type = "recipe",
+		name = "br-make-cooker",
+		category = "br-artisan-building",
+		enabled = false,
+		ingredients = {
+			{ type = "item", name = "br-wood-plank", amount = 1 },
+			{ type = "item", name = "br-plant-matter", amount = 1 },
+		},
+		results = {
+			{ type = "item", name = "br-cooker", amount = 1 },
+		},
 	},
 })

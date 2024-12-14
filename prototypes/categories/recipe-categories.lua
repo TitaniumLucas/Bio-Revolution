@@ -1,8 +1,8 @@
 data:extend({
-	-- Simple Cultivation
+	-- artisan Cultivation
 	{
 		type = "recipe-category",
-		name = "br-simple-cultivation",
+		name = "br-artisan-cultivation",
 	},
 	-- Pressing
 	{
@@ -30,7 +30,7 @@ data:extend({
 	},
 	{
 		type = "recipe-category",
-		name = "br-basic-building",
+		name = "br-artisan-building",
 	},
 	-- Tree Germination
 	{
@@ -52,19 +52,19 @@ data:extend({
 		type = "recipe-category",
 		name = "br-seed-sorting",
 	},
-	-- Basic Trapping
+	-- artisan Trapping
 	{
 		type = "recipe-category",
-		name = "br-basic-trapping",
+		name = "br-artisan-trapping",
 	},
-	-- Basic Bommel Cultivation
+	-- artisan Bommel Cultivation
 	{
 		type = "recipe-category",
-		name = "br-basic-bommel-cultivation",
+		name = "br-artisan-bommel-cultivation",
 	},
-	-- Basic Spiderid Cultivation
+	-- artisan Spiderid Cultivation
 	{
 		type = "recipe-category",
-		name = "br-basic-spiderid-cultivation",
+		name = "br-artisan-spiderid-cultivation",
 	},
 })

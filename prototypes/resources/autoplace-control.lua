@@ -1,7 +1,7 @@
 data:extend({
 	-- {
 	-- 	type = "autoplace-control",
-	-- 	name = "br-basic-mushroom-cluster",
+	-- 	name = "br-artisan-mushroom-cluster",
 	-- 	category = "resource",
 	-- 	can_be_disabled = true,
 	-- 	richness = true,

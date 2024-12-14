@@ -1,11 +1,11 @@
 data:extend({
 	{
 		type = "recipe",
-		name = "br-simple-cultivation-corn",
-		localised_name = { "recipe-name.br-simple-cultivation", { "item-name.br-corn-crop" } },
+		name = "br-artisan-cultivation-corn",
+		localised_name = { "recipe-name.br-artisan-cultivation", { "item-name.br-corn-crop" } },
 		icon = biorev.GRAPHICS .. "/icons/items/corn-crop.png",
 		icon_size = 64,
-		category = "br-simple-cultivation",
+		category = "br-artisan-cultivation",
 		subgroup = "br-agriculture-field-and-fibre",
 		energy_required = 1,
 		ingredients = {
@@ -19,11 +19,11 @@ data:extend({
 	},
 	{
 		type = "recipe",
-		name = "br-simple-cultivation-wheat",
-		localised_name = { "recipe-name.br-simple-cultivation", { "item-name.br-wheat-crop" } },
+		name = "br-artisan-cultivation-wheat",
+		localised_name = { "recipe-name.br-artisan-cultivation", { "item-name.br-wheat-crop" } },
 		icon = biorev.GRAPHICS .. "/icons/items/wheat-crop.png",
 		icon_size = 64,
-		category = "br-simple-cultivation",
+		category = "br-artisan-cultivation",
 		subgroup = "br-agriculture-field-and-fibre",
 		energy_required = 1,
 		ingredients = {
@@ -37,11 +37,11 @@ data:extend({
 	},
 	{
 		type = "recipe",
-		name = "br-simple-cultivation-cotton",
-		localised_name = { "recipe-name.br-simple-cultivation", { "item-name.br-cotton-crop" } },
+		name = "br-artisan-cultivation-cotton",
+		localised_name = { "recipe-name.br-artisan-cultivation", { "item-name.br-cotton-crop" } },
 		icon = biorev.GRAPHICS .. "/icons/items/cotton-crop.png",
 		icon_size = 64,
-		category = "br-simple-cultivation",
+		category = "br-artisan-cultivation",
 		subgroup = "br-agriculture-field-and-fibre",
 		energy_required = 1,
 		ingredients = {
@@ -55,11 +55,11 @@ data:extend({
 	},
 	{
 		type = "recipe",
-		name = "br-simple-cultivation-flax",
-		localised_name = { "recipe-name.br-simple-cultivation", { "item-name.br-flax-crop" } },
+		name = "br-artisan-cultivation-flax",
+		localised_name = { "recipe-name.br-artisan-cultivation", { "item-name.br-flax-crop" } },
 		icon = biorev.GRAPHICS .. "/icons/items/flax-crop.png",
 		icon_size = 64,
-		category = "br-simple-cultivation",
+		category = "br-artisan-cultivation",
 		subgroup = "br-agriculture-field-and-fibre",
 		energy_required = 1,
 		ingredients = {

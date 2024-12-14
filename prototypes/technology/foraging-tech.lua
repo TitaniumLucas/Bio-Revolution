@@ -74,8 +74,8 @@ data:extend({
 	},
 	{
 		type = "technology",
-		name = "br-basic-weaving",
-		icon = biorev.GRAPHICS .. "/icons/technology/basic-weaving.png",
+		name = "br-artisan-weaving",
+		icon = biorev.GRAPHICS .. "/icons/technology/artisan-weaving.png",
 		icon_size = 64,
 		effects = {
 			{
@@ -112,7 +112,7 @@ data:extend({
 				recipe = "br-make-agriculture-pack-1",
 			},
 		},
-		prerequisites = { "br-baking", "br-basic-weaving" },
+		prerequisites = { "br-baking", "br-artisan-weaving" },
 		unit = {
 			count = 10,
 			ingredients = {
