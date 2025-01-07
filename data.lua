@@ -14,6 +14,7 @@ local requirements = {
 						"bommel-hives",
 						"cookers",
 						"farms",
+						"mills",
 						"spiderid-nests",
 						"traps",
 					},
@@ -42,6 +43,7 @@ local requirements = {
 						"creature-groups",
 						"fluid-groups",
 						"intermediate-groups",
+						"metal-groups",
 						"science-groups",
 						"soil-groups",
 					},
@@ -81,7 +83,7 @@ local requirements = {
 							folder = "crops",
 							files = {
 								"field-and-fibre",
-								"flower",
+								"flowers",
 								"shrub-and-bush",
 								"wild-seed-clusters",
 							},
@@ -100,6 +102,13 @@ local requirements = {
 							files = {
 								"fabrics",
 								"planks",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "metals",
+							files = {
+								"powders",
 							},
 							sub_folders = {},
 						},
@@ -172,6 +181,7 @@ local requirements = {
 							files = {
 								"field-and-fibre",
 								"shrub-and-bush",
+								"flowers",
 								"wild-seed-cluster-sorting",
 							},
 							sub_folders = {},
@@ -179,6 +189,7 @@ local requirements = {
 						{
 							folder = "milling",
 							files = {
+								"ferrobloom",
 								"flour",
 							},
 							sub_folders = {},

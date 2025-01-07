@@ -18,13 +18,15 @@ data:extend({
 		max_health = 200,
 		collision_box = { { -0.7, -0.7 }, { 0.7, 0.7 } },
 		selection_box = { { -1.0, -1.0 }, { 1.0, 1.0 } },
-		animation = {
-			layers = {
-				{
-					filename = biorev.GRAPHICS .. "/entities/buildings/cooker.png",
-					width = 64,
-					height = 64,
-					frame_count = 1,
+		graphics_set = {
+			animation = {
+				layers = {
+					{
+						filename = biorev.GRAPHICS .. "/entities/buildings/cooker.png",
+						width = 64,
+						height = 64,
+						frame_count = 1,
+					},
 				},
 			},
 		},

@@ -5,6 +5,7 @@ data:extend({
 		icon = biorev.GRAPHICS .. "/icons/items/artisan-trap.png",
 		icon_size = 64,
 		stack_size = biorev.STACKSIZE.BUILDING,
+		place_result = "br-artisan-trap",
 		subgroup = "br-creatures-traps",
 	},
 	{
@@ -17,12 +18,14 @@ data:extend({
 		max_health = 100,
 		collision_box = { { -0.8, -0.8 }, { 0.8, 0.8 } },
 		selection_box = { { -1, -1 }, { 1, 1 } },
-		animation = {
-			layers = {
-				{
-					filename = biorev.GRAPHICS .. "/entities/buildings/artisan-trap.png",
-					size = 64,
-					frame_count = 1,
+		graphics_set = {
+			animation = {
+				layers = {
+					{
+						filename = biorev.GRAPHICS .. "/entities/buildings/artisan-trap.png",
+						size = 64,
+						frame_count = 1,
+					},
 				},
 			},
 		},
