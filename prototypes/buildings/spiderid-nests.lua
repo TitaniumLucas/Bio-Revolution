@@ -42,6 +42,7 @@ data:extend({
 		icon = biorev.GRAPHICS .. "/icons/items/artisan-spiderid-nest.png",
 		icon_size = 64,
 		category = "br-artisan-building",
+		subgroup = "br-creatures-buildings",
 		enabled = true,
 		ingredients = {
 			{ type = "item", name = "br-wood-plank", amount = 1 },
