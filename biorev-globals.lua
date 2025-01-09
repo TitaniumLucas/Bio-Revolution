@@ -23,6 +23,8 @@ biorev.STACKSIZE = {
 	WOOD = 200,
 	YEAST = 200,
 	BUILDING = 50,
+	BELT = 100,
+	GEAR = 100,
 }
 -- #endregion
 

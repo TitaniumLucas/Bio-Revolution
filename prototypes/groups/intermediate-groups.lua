@@ -14,8 +14,14 @@ data:extend({
 	},
 	{
 		type = "item-subgroup",
+		name = "br-intermediates-gears",
+		group = "br-intermediates",
+		order = "g",
+	},
+	{
+		type = "item-subgroup",
 		name = "br-intermediates-planks",
 		group = "br-intermediates",
-		order = "w",
+		order = "p",
 	},
 })

@@ -1,0 +1,50 @@
+data:extend({
+	{
+		type = "item",
+		name = "br-fabric-belt",
+		icon = biorev.GRAPHICS .. "/icons/items/fabric-belt.png",
+		icon_size = 64,
+		stack_size = biorev.STACKSIZE.BELT,
+		place_result = "br-fabric-belt",
+		subgroup = "br-logistics-belts",
+	},
+	{
+		type = "transport-belt",
+		name = "br-fabric-belt",
+		icon = biorev.GRAPHICS .. "/icons/items/fabric-belt.png",
+		icon_size = 64,
+		flags = { "placeable-player", "player-creation", "placeable-neutral" },
+		minable = { mining_time = 1, result = "br-fabric-belt" },
+		max_health = 100,
+		selection_box = { { -0.5, -0.5 }, { 0.5, 0.5 } },
+		collision_box = { { -0.4, -0.4 }, { 0.4, 0.4 } },
+		speed = 6 / 480,
+		animation_speed_coefficient = 4,
+		belt_animation_set = {
+			animation_set = {
+				filename = biorev.GRAPHICS .. "/entities/belts/fabric-belt.png",
+				size = 128,
+				scale = 0.5,
+				frame_count = 2,
+				direction_count = 20,
+			},
+		},
+	},
+	{
+		type = "recipe",
+		name = "br-craft-fabric-belt",
+		icon = biorev.GRAPHICS .. "/icons/items/fabric-belt.png",
+		icon_size = 64,
+		category = "br-artisan-building",
+		subgroup = "br-logistics-belts",
+		ingredients = {
+			{ type = "item", name = "br-fabric", amount = 1 },
+			{ type = "item", name = "br-wood-gear", amount = 1 },
+			{ type = "item", name = "br-plant-fibre", amount = 1 },
+		},
+		results = {
+			{ type = "item", name = "br-fabric-belt", amount = 1 },
+		},
+		main_product = "",
+	},
+})

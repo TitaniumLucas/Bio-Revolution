@@ -11,6 +11,7 @@ local requirements = {
 				{
 					folder = "buildings",
 					files = {
+						"belts",
 						"bommel-hives",
 						"cookers",
 						"farms",
@@ -43,6 +44,7 @@ local requirements = {
 						"creature-groups",
 						"fluid-groups",
 						"intermediate-groups",
+						"logistics-groups",
 						"metal-groups",
 						"science-groups",
 						"soil-groups",
@@ -101,6 +103,7 @@ local requirements = {
 							folder = "intermediates",
 							files = {
 								"fabrics",
+								"gears",
 								"planks",
 							},
 							sub_folders = {},
@@ -214,6 +217,7 @@ local requirements = {
 						{
 							folder = "woodworking",
 							files = {
+								"gear-making",
 								"plank-cutting",
 							},
 							sub_folder = {},

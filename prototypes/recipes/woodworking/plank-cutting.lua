@@ -1,7 +1,7 @@
 data:extend({
 	{
 		type = "recipe",
-		name = "br-make-wood-plank",
+		name = "br-craft-wood-plank",
 		icon = biorev.GRAPHICS .. "/icons/items/wood-plank.png",
 		icon_size = 64,
 		category = "br-woodworking",
