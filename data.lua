@@ -116,6 +116,13 @@ local requirements = {
 							sub_folders = {},
 						},
 						{
+							folder = "science",
+							files = {
+								"neurodes",
+							},
+							sub_folders = {},
+						},
+						{
 							folder = "science-packs",
 							files = {
 								"agriculture-packs",
@@ -194,6 +201,13 @@ local requirements = {
 							files = {
 								"ferrobloom",
 								"flour",
+							},
+							sub_folders = {},
+						},
+						{
+							folder = "science",
+							files = {
+								"neurodes",
 							},
 							sub_folders = {},
 						},

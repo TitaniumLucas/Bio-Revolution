@@ -8,14 +8,14 @@ data:extend({
 		name = "br-brain-plant-lab",
 		place_result = "br-brain-plant-lab",
 		stack_size = biorev.STACKSIZE.BUILDING,
-		icon = biorev.GRAPHICS .. "/icons/buildings/brain-plant.png",
+		icon = biorev.GRAPHICS .. "/icons/items/brain-plant.png",
 		icon_size = 64,
 		subgroup = "br-science-buildings",
 	},
 	{
 		type = "lab",
 		name = "br-brain-plant-lab",
-		icon = biorev.GRAPHICS .. "/icons/buildings/brain-plant.png",
+		icon = biorev.GRAPHICS .. "/icons/items/brain-plant.png",
 		icon_size = 64,
 		flags = { "placeable-player", "player-creation", "placeable-neutral" },
 		minable = { mining_time = 0.2, result = "br-brain-plant-lab" },
@@ -66,5 +66,20 @@ data:extend({
 			regular_rq_factor_multiplier = 1,
 		}),
 		map_color = { 1, 1, 1 },
+	},
+	{
+		type = "recipe",
+		name = "br-craft-brain-plant",
+		icon = biorev.GRAPHICS .. "/icons/items/brain-plant.png",
+		icon_size = 64,
+		category = "br-artisan-building",
+		subgroup = "br-science-buildings",
+		ingredients = {
+			{ type = "item", name = "br-neurode", amount = 1 },
+		},
+		results = {
+			{ type = "item", name = "br-brain-plant-lab", amount = 1 },
+		},
+		main_product = "",
 	},
 })
